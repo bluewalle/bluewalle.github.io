@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Just Keep Swimming</title>
+    <link>https://bluewalle.github.io/categories/</link>
+    <description>Recent content in Categories on Just Keep Swimming</description>
+    <image>
+      <url>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Oct 2022 01:22:40 +0200</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://bluewalle.github.io/categories/blog/</link>
+      <pubDate>Tue, 11 Oct 2022 01:22:40 +0200</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>setup</title>
+      <link>https://bluewalle.github.io/categories/setup/</link>
+      <pubDate>Tue, 11 Oct 2022 01:22:40 +0200</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/setup/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

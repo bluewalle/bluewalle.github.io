@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Just Keep Swimming</title>
+    <link>https://bluewalle.github.io/</link>
+    <description>Recent content on Just Keep Swimming</description>
+    <image>
+      <url>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Oct 2022 01:22:40 +0200</lastBuildDate><atom:link href="https://bluewalle.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A little bit about me.</title>
+      <link>https://bluewalle.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 11 Oct 2022 01:22:40 +0200</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/my-first-post/</guid>
+      <description>&amp;ldquo;Anything that can go wrong will go wrong.&amp;rdquo; &amp;ndash; Murphy&amp;rsquo;s law 1
+A little something about me, I am but a humble student who was lost for so long but is finally found. :) It took me quite a while to end up with cybersecurity and I am more than happy that I did. As they say, some beautiful paths cant&amp;rsquo;t be discovered without getting lost.2
+Besides being a full time student and going down this rabbit hole called &amp;ldquo;cybersecurity&amp;rdquo; totally of my own accord, I love to travel around whenever I can.</description>
+    </item>
+    
+  </channel>
+</rss>
