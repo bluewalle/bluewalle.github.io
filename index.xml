@@ -9,17 +9,16 @@
       <link>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 11 Oct 2022 01:22:40 +0200</lastBuildDate><atom:link href="https://bluewalle.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://bluewalle.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A little bit about me.</title>
-      <link>https://bluewalle.github.io/posts/my-first-post/</link>
-      <pubDate>Tue, 11 Oct 2022 01:22:40 +0200</pubDate>
+      <title>About</title>
+      <link>https://bluewalle.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/my-first-post/</guid>
-      <description>&amp;ldquo;Anything that can go wrong will go wrong.&amp;rdquo; &amp;ndash; Murphy&amp;rsquo;s law 1
-A little something about me, I am but a humble student who was lost for so long but is finally found. :) It took me quite a while to end up with cybersecurity and I am more than happy that I did. As they say, some beautiful paths cant&amp;rsquo;t be discovered without getting lost.2
-Besides being a full time student and going down this rabbit hole called &amp;ldquo;cybersecurity&amp;rdquo; totally of my own accord, I love to travel around whenever I can.</description>
+      <guid>https://bluewalle.github.io/about/</guid>
+      <description>Anything that can go wrong will go wrong.&amp;quot; &amp;ndash; Murphy&amp;rsquo;s law 1
+A little something about me, I am but a humble student who was lost for so long but is finally found. :) It took me quite a while to end up with cybersecurity and I am more than happy for it that I did. As they say, some beautiful paths cant&amp;rsquo;t be discovered without getting lost.2
+Besides being a full time student and going down this rabbit hole called &amp;ldquo;cybersecurity&amp;rdquo; (totally of my own accord &amp;ndash; I know, right?</description>
     </item>
     
   </channel>
