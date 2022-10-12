@@ -10,13 +10,23 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/thm-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/thm-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THM - Intro to Offensive Security - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-offensive-security-room/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-offensive-security-room/</guid>
+      <description>Task 1 - Hacking your first machine Our objective in this task is to hack a fake bank application that goes by the name of &amp;ldquo;FakeBank&amp;rdquo;. Following the steps in the room, we get access to a linux machine where we can run our commands.
+First we print out our current working directory (see the red circle with the 1 - referred to as #1), and list all the files and directory within (see #2).</description>
+    </item>
+    
     <item>
       <title>THM - Pre Security Path - Introduction</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/pre-security-path_intro/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/pre-security-path_intro/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/pre-security-path_intro/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/pre-security-path_intro/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
 Please note, that by no means does this writeup replace the original room, and it&amp;rsquo;s content. It is only meant as a support material in case one is stuck, and need a little bit of help.
 As you might have already noticed, this path requires no prior knowledge, and therefore no such prerequisites are set forth.</description>
