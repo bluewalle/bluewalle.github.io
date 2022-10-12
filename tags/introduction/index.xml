@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ee-Vah?</title>
-    <link>https://bluewalle.github.io/</link>
-    <description>Recent content on Ee-Vah?</description>
+    <title>introduction on Ee-Vah?</title>
+    <link>https://bluewalle.github.io/tags/introduction/</link>
+    <description>Recent content in introduction on Ee-Vah?</description>
     <image>
       <url>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>THM - Pre Security Path - Introduction</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/pre-security-path_intro/</link>
@@ -20,17 +20,6 @@
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
 Please note, that by no means does this writeup replace the original room, and it&amp;rsquo;s content. It is only meant as a support material in case one is stuck, and need a little bit of help.
 As you might have already noticed, this path requires no prior knowledge, and therefore no such prerequisites are set forth.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://bluewalle.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/about/</guid>
-      <description>Anything that can go wrong will go wrong.&amp;quot; &amp;ndash; Murphy&amp;rsquo;s law 1
-A little something about me, I am but a humble student who was lost for so long but is finally found. :) It took me quite a while to end up with cybersecurity, and I am more than happy for it that I did. As they say, some beautiful paths cant&amp;rsquo;t be discovered without getting lost.2
-Besides being a full time student and going down this rabbit hole called &amp;ldquo;cybersecurity&amp;rdquo; (totally of my own accord &amp;ndash; I know, right?</description>
     </item>
     
   </channel>
