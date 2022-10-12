@@ -12,6 +12,19 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>THM - Intro to Defensive Security - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</guid>
+      <description>Task 1 - Introduction to Defensive Security Read the introduction to defensive security before proceeding to the next task.
+Question 1: Which team focuses on defensive security?
+Blue Team
+Task 2 - Areas of Defensive Security Topics related to defensive security like Security Operations Center (SOC) and Digital Forensics and Incident Response (DFIR) are introduced here. Gain an initial understanding before jumping to the next task.
+Question 1: What would you call a team of cyber security professionals that monitors a network and its systems for malicious events?</description>
+    </item>
+    
+    <item>
       <title>THM - Intro to Offensive Security - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-offensive-security-room/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>

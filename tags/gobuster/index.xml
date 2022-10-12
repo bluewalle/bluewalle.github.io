@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>room on Ee-Vah?</title>
-    <link>https://bluewalle.github.io/tags/room/</link>
-    <description>Recent content in room on Ee-Vah?</description>
+    <title>gobuster on Ee-Vah?</title>
+    <link>https://bluewalle.github.io/tags/gobuster/</link>
+    <description>Recent content in gobuster on Ee-Vah?</description>
     <image>
       <url>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/room/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>THM - Intro to Defensive Security - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</guid>
-      <description>Task 1 - Introduction to Defensive Security Read the introduction to defensive security before proceeding to the next task.
-Question 1: Which team focuses on defensive security?
-Blue Team
-Task 2 - Areas of Defensive Security Topics related to defensive security like Security Operations Center (SOC) and Digital Forensics and Incident Response (DFIR) are introduced here. Gain an initial understanding before jumping to the next task.
-Question 1: What would you call a team of cyber security professionals that monitors a network and its systems for malicious events?</description>
-    </item>
-    
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/gobuster/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>THM - Intro to Offensive Security - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-offensive-security-room/</link>
