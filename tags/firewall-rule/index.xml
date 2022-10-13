@@ -18,6 +18,7 @@
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
+It is based on the learning content provided in the Intro to Defensive Security room.
 Task 1 - Introduction to Defensive Security Read the introduction to defensive security before proceeding to the next task.
 Question 1: Which team focuses on defensive security?
 Blue Team
