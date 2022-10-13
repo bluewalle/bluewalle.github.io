@@ -10,11 +10,23 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/thm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 06:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/thm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THM - OSI Model - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/osi-model/</link>
+      <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/osi-model/</guid>
+      <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
+It is based on the learning content provided in the OSI Model room.
+Task 1 - What is the OSI Model? The OSI Model and it&amp;rsquo;s layers are introduced here. My go-to word for remembering the layers is: Please Do Not Throw Sousage Pizza Away.
+First Letter Layer OSI Layer number P - Please Physical 1 D - Do Data Link 2 N - Not Network 3 T - Throw Transport 4 S - Sousage Session 5 P - Pizza Presentation 6 A - Away Application 7 Here is an other one: All People Seem To Need Data Processing.</description>
+    </item>
+    
     <item>
       <title>THM - Intro to LAN - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/intro-to-lan-room/</link>
-      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 05:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/intro-to-lan-room/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
@@ -25,7 +37,7 @@ Task 1 - Introducing LAN Topologies An interactive lab is provided to highlight 
     <item>
       <title>THM - What is Networking? - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/what-is-networking-room/</link>
-      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 04:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/what-is-networking-room/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
@@ -39,7 +51,7 @@ Task 2 - What is the Internet? Since 1989&amp;hellip;, has it really been that l
     <item>
       <title>THM - Careers in Cyber - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/careers-in-cyber/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 03:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/careers-in-cyber/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
@@ -51,7 +63,7 @@ Question 1: Let&amp;rsquo;s start exploring the different roles in cyber securit
     <item>
       <title>THM - Intro to Defensive Security - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 01:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
@@ -76,7 +88,7 @@ Task 1 - Hacking your first machine Our objective in this task is to hack a fake
     <item>
       <title>THM - Pre Security Path - Introduction</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/pre-security-path_intro/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/pre-security-path_intro/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.

@@ -2,110 +2,140 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bluewalle.github.io/tags/arp/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <loc>https://bluewalle.github.io/tags/application-layer/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/beginner-level/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/dhcp/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <loc>https://bluewalle.github.io/tags/data-link-layer/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/internet/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/intro-to-lan-room/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/mac-address/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/network/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/network-fundamentals-module/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/network-topologies/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <loc>https://bluewalle.github.io/tags/network-layer/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/ping/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <loc>https://bluewalle.github.io/tags/osi/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/osi-model-room/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/physical-layer/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/posts/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/pre-security-path/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/presentation-layer/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/room/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/session-layer/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/thm/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/intro-to-lan-room/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/what-is-networking-room/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/osi-model/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/transport-layer/</loc>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T06:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/arp/</loc>
+    <lastmod>2022-10-12T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/dhcp/</loc>
+    <lastmod>2022-10-12T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/intro-to-lan-room/</loc>
+    <lastmod>2022-10-12T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/network-topologies/</loc>
+    <lastmod>2022-10-12T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/intro-to-lan-room/</loc>
+    <lastmod>2022-10-12T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/internet/</loc>
+    <lastmod>2022-10-12T04:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/mac-address/</loc>
+    <lastmod>2022-10-12T04:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/network/</loc>
+    <lastmod>2022-10-12T04:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/ping/</loc>
+    <lastmod>2022-10-12T04:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/what-is-networking-room/</loc>
+    <lastmod>2022-10-12T04:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/what-is-networking-room/</loc>
-    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T04:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/careers-in-cyber-room/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T03:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/introduction-to-cyber-security-module/</loc>
+    <lastmod>2022-10-12T03:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/careers-in-cyber/</loc>
+    <lastmod>2022-10-12T03:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/firewall-rule/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/gobuster/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T01:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/intro-to-defensive-security-room/</loc>
+    <lastmod>2022-10-12T01:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</loc>
+    <lastmod>2022-10-12T01:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/gobuster/</loc>
     <lastmod>2022-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/intro-to-offensive-security-room/</loc>
     <lastmod>2022-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/introduction/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/introduction-to-cyber-security-module/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/careers-in-cyber/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-defensive-security-room/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/introduction-to-cyber-security-module/intro-to-offensive-security-room/</loc>
     <lastmod>2022-10-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://bluewalle.github.io/tags/introduction/</loc>
+    <lastmod>2022-10-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/pre-security-path_intro/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/thm-structure/</loc>
-    <lastmod>2022-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/about/</loc>
   </url>
