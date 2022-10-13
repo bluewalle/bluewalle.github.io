@@ -12,11 +12,29 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ARP</title>
+      <link>https://bluewalle.github.io/tags/arp/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/arp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/tags/beginner-level/</link>
       <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DHCP</title>
+      <link>https://bluewalle.github.io/tags/dhcp/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/dhcp/</guid>
       <description></description>
     </item>
     
@@ -62,6 +80,15 @@
       <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/network-fundamentals-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-topologies</title>
+      <link>https://bluewalle.github.io/tags/network-topologies/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/network-topologies/</guid>
       <description></description>
     </item>
     

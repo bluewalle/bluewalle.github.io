@@ -19,11 +19,7 @@
       <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/intro-to-lan-room/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
 It is based on the learning content provided in the Intro to LAN room.
-Task 1 - Introducing LAN Topologies Question 1: What does LAN stand for?
-Local Area Network
-Question 2: What is the verb given to the job that Routers perform?
-Routing
-Question 3: What device is used to centrally connect multiple devices on the local network and transmit data to the correct location?</description>
+Task 1 - Introducing LAN Topologies An interactive lab is provided to highlight each of the network topologies and their respective vulnerabilities. But besides the chance to break them, you are provided with nice graphical demos depicting the various topologies at work.</description>
     </item>
     
     <item>
