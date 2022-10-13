@@ -10,13 +10,67 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/tags/beginner-level/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-fundamentals-module</title>
+      <link>https://bluewalle.github.io/tags/network-fundamentals-module/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/network-fundamentals-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pre-security-path</title>
+      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>room</title>
+      <link>https://bluewalle.github.io/tags/room/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thm</title>
+      <link>https://bluewalle.github.io/tags/thm/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/thm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>what-is-networking-room</title>
+      <link>https://bluewalle.github.io/tags/what-is-networking-room/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/what-is-networking-room/</guid>
       <description></description>
     </item>
     
@@ -84,47 +138,11 @@
     </item>
     
     <item>
-      <title>pre-security-path</title>
-      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>room</title>
-      <link>https://bluewalle.github.io/tags/room/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thm</title>
-      <link>https://bluewalle.github.io/tags/thm/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/thm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>thm-structure</title>
       <link>https://bluewalle.github.io/tags/thm-structure/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/thm-structure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
