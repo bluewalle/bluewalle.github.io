@@ -10,13 +10,148 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 09:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/tags/beginner-level/</link>
-      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ccTLD</title>
+      <link>https://bluewalle.github.io/tags/cctld/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/cctld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS</title>
+      <link>https://bluewalle.github.io/tags/dns/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS query</title>
+      <link>https://bluewalle.github.io/tags/dns-query/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/dns-query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns-in-detail-room</title>
+      <link>https://bluewalle.github.io/tags/dns-in-detail-room/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/dns-in-detail-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNS-record-type</title>
+      <link>https://bluewalle.github.io/tags/dns-record-type/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/dns-record-type/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gTLD</title>
+      <link>https://bluewalle.github.io/tags/gtld/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/gtld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how-the-web-works-module</title>
+      <link>https://bluewalle.github.io/tags/how-the-web-works-module/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/how-the-web-works-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nslookup</title>
+      <link>https://bluewalle.github.io/tags/nslookup/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/nslookup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pre-security-path</title>
+      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>room</title>
+      <link>https://bluewalle.github.io/tags/room/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>second-level-domain</title>
+      <link>https://bluewalle.github.io/tags/second-level-domain/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/second-level-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>subdomain</title>
+      <link>https://bluewalle.github.io/tags/subdomain/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/subdomain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thm</title>
+      <link>https://bluewalle.github.io/tags/thm/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/thm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TLD</title>
+      <link>https://bluewalle.github.io/tags/tld/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/tld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
@@ -57,24 +192,6 @@
     </item>
     
     <item>
-      <title>pre-security-path</title>
-      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
-      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>room</title>
-      <link>https://bluewalle.github.io/tags/room/</link>
-      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>router</title>
       <link>https://bluewalle.github.io/tags/router/</link>
       <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
@@ -107,24 +224,6 @@
       <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/switch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thm</title>
-      <link>https://bluewalle.github.io/tags/thm/</link>
-      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/thm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     

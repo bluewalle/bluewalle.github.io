@@ -10,7 +10,21 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 09:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THM - DNS in detail - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/dns-in-detail-room/</link>
+      <pubDate>Wed, 12 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/dns-in-detail-room/</guid>
+      <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
+It is based on the learning content provided in the DNS in detail room.
+Task 1 - What is DNS? Check out the DNS introduction.
+Question 1: What does DNS stand for?
+Domain Name System
+Task 2 - Domain Hierarchy Did you know, that there are TLDs like flowers, mango and yoga?</description>
+    </item>
+    
     <item>
       <title>THM - Extending Your Network - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/extending-your-network-room/</link>
