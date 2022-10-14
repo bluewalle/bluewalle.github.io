@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 09:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/beginner-level/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 10:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/beginner-level/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THM - HTTP in detail - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/http-in-detail-room/</link>
+      <pubDate>Wed, 12 Oct 2022 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/http-in-detail-room/</guid>
+      <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
+It is based on the learning content provided in the HTTP in detail room.
+Task 1 - What is HTTP(S)? After the nice introduction to HTTP and HTTPS, check out the static website provided in the task. Notice, how the little lock symbol at the top of the page is crossed out.</description>
+    </item>
+    
     <item>
       <title>THM - DNS in detail - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/dns-in-detail-room/</link>
