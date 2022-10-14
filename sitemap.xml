@@ -3,19 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bluewalle.github.io/tags/beginner-level/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/extending-your-network-room/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/firewall/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/network-fundamentals-module/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/port-forwarding/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/pre-security-path/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/room/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/router/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/stateful-firewall/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/stateless-firewall/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/switch/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/thm/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/extending-your-network-room/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2022-10-12T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/packets-and-frames-room/</loc>
     <lastmod>2022-10-12T07:00:00+00:00</lastmod>
@@ -23,37 +68,16 @@
     <loc>https://bluewalle.github.io/tags/ports/</loc>
     <lastmod>2022-10-12T07:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/pre-security-path/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/room/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/tcp/</loc>
     <lastmod>2022-10-12T07:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/thm/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/packets-and-frames-room/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
     <lastmod>2022-10-12T07:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/three-way-handshake/</loc>
     <lastmod>2022-10-12T07:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/udp/</loc>
-    <lastmod>2022-10-12T07:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
     <lastmod>2022-10-12T07:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/application-layer/</loc>

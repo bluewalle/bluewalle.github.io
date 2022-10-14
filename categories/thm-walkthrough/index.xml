@@ -10,7 +10,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 07:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/thm-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/thm-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THM - Extending Your Network - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/extending-your-network-room/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/extending-your-network-room/</guid>
+      <description>This series of walkthroughs aims to help out complete beginners with finishing the Pre Security Path on the TryHackMe (thm)1 website.
+It is based on the learning content provided in the Extending Your Network room.
+Task 1 - Introduction to Port Forwarding Check out how port forwarding works, and why it is so essential for network communications.
+Question 1: What is the name of the device that is used to configure port forwarding?</description>
+    </item>
+    
     <item>
       <title>THM - Packets &amp; Frames - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/network-fundamentals-module/packets-and-frames-room/</link>

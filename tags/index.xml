@@ -10,22 +10,121 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 07:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/tags/beginner-level/</link>
-      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>extending-your-network-room</title>
+      <link>https://bluewalle.github.io/tags/extending-your-network-room/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/extending-your-network-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firewall</title>
+      <link>https://bluewalle.github.io/tags/firewall/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/firewall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>network-fundamentals-module</title>
       <link>https://bluewalle.github.io/tags/network-fundamentals-module/</link>
-      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/network-fundamentals-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>port-forwarding</title>
+      <link>https://bluewalle.github.io/tags/port-forwarding/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/port-forwarding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pre-security-path</title>
+      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>room</title>
+      <link>https://bluewalle.github.io/tags/room/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>router</title>
+      <link>https://bluewalle.github.io/tags/router/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/router/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stateful-firewall</title>
+      <link>https://bluewalle.github.io/tags/stateful-firewall/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/stateful-firewall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stateless-firewall</title>
+      <link>https://bluewalle.github.io/tags/stateless-firewall/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/stateless-firewall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>switch</title>
+      <link>https://bluewalle.github.io/tags/switch/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/switch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thm</title>
+      <link>https://bluewalle.github.io/tags/thm/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/thm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Wed, 12 Oct 2022 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
@@ -48,38 +147,11 @@
     </item>
     
     <item>
-      <title>pre-security-path</title>
-      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
-      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>room</title>
-      <link>https://bluewalle.github.io/tags/room/</link>
-      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>TCP</title>
       <link>https://bluewalle.github.io/tags/tcp/</link>
       <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/tcp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thm</title>
-      <link>https://bluewalle.github.io/tags/thm/</link>
-      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/thm/</guid>
       <description></description>
     </item>
     
@@ -98,15 +170,6 @@
       <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/udp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
