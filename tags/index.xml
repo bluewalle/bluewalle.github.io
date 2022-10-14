@@ -10,7 +10,106 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 06:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 07:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beginner-level</title>
+      <link>https://bluewalle.github.io/tags/beginner-level/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-fundamentals-module</title>
+      <link>https://bluewalle.github.io/tags/network-fundamentals-module/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/network-fundamentals-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>packets-and-frames-room</title>
+      <link>https://bluewalle.github.io/tags/packets-and-frames-room/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/packets-and-frames-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ports</title>
+      <link>https://bluewalle.github.io/tags/ports/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/ports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pre-security-path</title>
+      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>room</title>
+      <link>https://bluewalle.github.io/tags/room/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TCP</title>
+      <link>https://bluewalle.github.io/tags/tcp/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/tcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thm</title>
+      <link>https://bluewalle.github.io/tags/thm/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/thm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Three-way handshake</title>
+      <link>https://bluewalle.github.io/tags/three-way-handshake/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/three-way-handshake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UDP</title>
+      <link>https://bluewalle.github.io/tags/udp/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/udp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Wed, 12 Oct 2022 07:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>application-layer</title>
       <link>https://bluewalle.github.io/tags/application-layer/</link>
@@ -21,29 +120,11 @@
     </item>
     
     <item>
-      <title>beginner-level</title>
-      <link>https://bluewalle.github.io/tags/beginner-level/</link>
-      <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>data-link-layer</title>
       <link>https://bluewalle.github.io/tags/data-link-layer/</link>
       <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/data-link-layer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network-fundamentals-module</title>
-      <link>https://bluewalle.github.io/tags/network-fundamentals-module/</link>
-      <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/network-fundamentals-module/</guid>
       <description></description>
     </item>
     
@@ -84,29 +165,11 @@
     </item>
     
     <item>
-      <title>pre-security-path</title>
-      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
-      <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>presentation-layer</title>
       <link>https://bluewalle.github.io/tags/presentation-layer/</link>
       <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/presentation-layer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>room</title>
-      <link>https://bluewalle.github.io/tags/room/</link>
-      <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/room/</guid>
       <description></description>
     </item>
     
@@ -120,29 +183,11 @@
     </item>
     
     <item>
-      <title>thm</title>
-      <link>https://bluewalle.github.io/tags/thm/</link>
-      <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/thm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>transport-layer</title>
       <link>https://bluewalle.github.io/tags/transport-layer/</link>
       <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/transport-layer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Wed, 12 Oct 2022 06:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
@@ -296,6 +341,15 @@
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/thm-structure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TCP/IP</title>
+      <link>https://bluewalle.github.io/tags/tcp/ip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/tcp/ip/</guid>
       <description></description>
     </item>
     
