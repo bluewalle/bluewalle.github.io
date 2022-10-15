@@ -3,19 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bluewalle.github.io/tags/beginner-level/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/how-the-web-works-module/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/how-websites-work-room/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/html/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/html-injection/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/javascript/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/pre-security-path/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/room/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/sensitive-data-exposure/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/thm/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/how-websites-work-room/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2022-10-12T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/http/</loc>
     <lastmod>2022-10-12T10:00:00+00:00</lastmod>
@@ -35,31 +74,10 @@
     <loc>https://bluewalle.github.io/tags/https/</loc>
     <lastmod>2022-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/pre-security-path/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/room/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/thm/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/http-in-detail-room/</loc>
     <lastmod>2022-10-12T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/url/</loc>
-    <lastmod>2022-10-12T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
     <lastmod>2022-10-12T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/cctld/</loc>
