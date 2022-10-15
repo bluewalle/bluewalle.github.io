@@ -10,22 +10,148 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 11:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>backend languages</title>
+      <link>https://bluewalle.github.io/tags/backend-languages/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/backend-languages/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/tags/beginner-level/</link>
-      <pubDate>Wed, 12 Oct 2022 11:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>CDN</title>
+      <link>https://bluewalle.github.io/tags/cdn/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/cdn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>databases</title>
+      <link>https://bluewalle.github.io/tags/databases/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic content</title>
+      <link>https://bluewalle.github.io/tags/dynamic-content/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/dynamic-content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>how-the-web-works-module</title>
       <link>https://bluewalle.github.io/tags/how-the-web-works-module/</link>
-      <pubDate>Wed, 12 Oct 2022 11:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/how-the-web-works-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>load-balancer</title>
+      <link>https://bluewalle.github.io/tags/load-balancer/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/load-balancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pre-security-path</title>
+      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>putting-it-all-together-room</title>
+      <link>https://bluewalle.github.io/tags/putting-it-all-together-room/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/putting-it-all-together-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>room</title>
+      <link>https://bluewalle.github.io/tags/room/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static content</title>
+      <link>https://bluewalle.github.io/tags/static-content/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/static-content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thm</title>
+      <link>https://bluewalle.github.io/tags/thm/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/thm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtual host</title>
+      <link>https://bluewalle.github.io/tags/virtual-host/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/virtual-host/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WAF</title>
+      <link>https://bluewalle.github.io/tags/waf/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/waf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web server</title>
+      <link>https://bluewalle.github.io/tags/web-server/</link>
+      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/web-server/</guid>
       <description></description>
     </item>
     
@@ -66,47 +192,11 @@
     </item>
     
     <item>
-      <title>pre-security-path</title>
-      <link>https://bluewalle.github.io/tags/pre-security-path/</link>
-      <pubDate>Wed, 12 Oct 2022 11:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/pre-security-path/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>room</title>
-      <link>https://bluewalle.github.io/tags/room/</link>
-      <pubDate>Wed, 12 Oct 2022 11:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>sensitive data exposure</title>
       <link>https://bluewalle.github.io/tags/sensitive-data-exposure/</link>
       <pubDate>Wed, 12 Oct 2022 11:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/sensitive-data-exposure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thm</title>
-      <link>https://bluewalle.github.io/tags/thm/</link>
-      <pubDate>Wed, 12 Oct 2022 11:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/thm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Wed, 12 Oct 2022 11:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
