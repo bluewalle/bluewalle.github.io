@@ -10,22 +10,121 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beginner-level</title>
+      <link>https://bluewalle.github.io/tags/beginner-level/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comptia-pentest-plus-path</title>
+      <link>https://bluewalle.github.io/tags/comptia-pentest-plus-path/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/comptia-pentest-plus-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nessus</title>
+      <link>https://bluewalle.github.io/tags/nessus/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/nessus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nessus-room</title>
+      <link>https://bluewalle.github.io/tags/nessus-room/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/nessus-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network-scan</title>
+      <link>https://bluewalle.github.io/tags/network-scan/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/network-scan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>penetration-testing-tools-module</title>
+      <link>https://bluewalle.github.io/tags/penetration-testing-tools-module/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/penetration-testing-tools-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>room</title>
+      <link>https://bluewalle.github.io/tags/room/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sha-checksum</title>
+      <link>https://bluewalle.github.io/tags/sha-checksum/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/sha-checksum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thm</title>
+      <link>https://bluewalle.github.io/tags/thm/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/thm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vulnerability-scan</title>
+      <link>https://bluewalle.github.io/tags/vulnerability-scan/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/vulnerability-scan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-application-scan</title>
+      <link>https://bluewalle.github.io/tags/web-application-scan/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/web-application-scan/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>backend languages</title>
       <link>https://bluewalle.github.io/tags/backend-languages/</link>
       <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/backend-languages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>beginner-level</title>
-      <link>https://bluewalle.github.io/tags/beginner-level/</link>
-      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
       <description></description>
     </item>
     
@@ -93,29 +192,11 @@
     </item>
     
     <item>
-      <title>room</title>
-      <link>https://bluewalle.github.io/tags/room/</link>
-      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>static content</title>
       <link>https://bluewalle.github.io/tags/static-content/</link>
       <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/static-content/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thm</title>
-      <link>https://bluewalle.github.io/tags/thm/</link>
-      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/thm/</guid>
       <description></description>
     </item>
     
@@ -134,15 +215,6 @@
       <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/waf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Wed, 12 Oct 2022 12:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     

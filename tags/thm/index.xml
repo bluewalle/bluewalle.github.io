@@ -10,7 +10,21 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/thm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/thm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THM - Nessus - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/comptia-pentest-plus-path/penetration-testing-tools-module/nessus-room/</link>
+      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/comptia-pentest-plus-path/penetration-testing-tools-module/nessus-room/</guid>
+      <description>This series of walkthroughs aims to help out complete beginners with finishing the CompTIA Pentest+ on the TryHackMe (thm)1 website.
+It is based on the learning content provided in the Nessus room.
+Task 1 - Introduction Read the short introduction before moving to the next task.
+Question 1: I have read the description!
+No answer needed
+Task 2 - Installation Here, we will be installing Nessus on a kali system. (release 2022.</description>
+    </item>
+    
     <item>
       <title>THM - Putting it all together - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/putting-it-all-together-room/</link>

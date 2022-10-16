@@ -2,16 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bluewalle.github.io/tags/backend-languages/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/beginner-level/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/comptia-pentest-plus-path/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/nessus/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/nessus-room/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/network-scan/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/penetration-testing-tools-module/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/room/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/sha-checksum/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/thm/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/comptia-pentest-plus-path/penetration-testing-tools-module/nessus-room/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/vulnerability-scan/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/web-application-scan/</loc>
+    <lastmod>2022-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/backend-languages/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/cdn/</loc>
@@ -23,16 +71,10 @@
     <loc>https://bluewalle.github.io/tags/dynamic-content/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/how-the-web-works-module/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/load-balancer/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/pre-security-path/</loc>
@@ -41,31 +83,16 @@
     <loc>https://bluewalle.github.io/tags/putting-it-all-together-room/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/room/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/static-content/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/thm/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/thm/pre-security-path/how-the-web-works-module/putting-it-all-together-room/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/virtual-host/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/waf/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/web-server/</loc>
