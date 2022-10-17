@@ -10,11 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 02:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>THM - Hydra - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/thm/comptia-pentest-plus-path/penetration-testing-tools-module/hydra-room/</link>
+      <pubDate>Thu, 13 Oct 2022 02:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/thm/comptia-pentest-plus-path/penetration-testing-tools-module/hydra-room/</guid>
+      <description>This series of walkthroughs aims to help out complete beginners with finishing the CompTIA Pentest+ on the TryHackMe (thm)1 website.
+It is based on the learning content provided in the Hydra room.
+Task 1 - Hydra Introduction Check out the introduction to hydra and all the different protocols it supports before moving on.
+Question 1: Read the above and have Hydra at the ready.
+No answer needed
+Task 2 - Using Hydra Make sure you deployed the machine in the room before trying solve the questions.</description>
+    </item>
+    
     <item>
       <title>THM - Nessus - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/comptia-pentest-plus-path/penetration-testing-tools-module/nessus-room/</link>
-      <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 13 Oct 2022 01:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/thm/comptia-pentest-plus-path/penetration-testing-tools-module/nessus-room/</guid>
       <description>This series of walkthroughs aims to help out complete beginners with finishing the CompTIA Pentest+ on the TryHackMe (thm)1 website.
