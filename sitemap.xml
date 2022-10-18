@@ -3,18 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bluewalle.github.io/tags/beginner-level/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/comptia-pentest-plus-path/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
+    <loc>https://bluewalle.github.io/tags/debugger/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/developer-tools/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/directory-listing/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/inspector/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/introduction-to-web-hacking-module/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/network/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/page-source/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/room/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/thm/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/thm/web-fundamentals-path/walking-an-application-room/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walking-an-application-room/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/web-fundamentals-path/</loc>
+    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/comptia-pentest-plus-path/</loc>
     <lastmod>2022-10-13T02:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/http-post-form-bruteforcing/</loc>
@@ -32,28 +80,10 @@
     <loc>https://bluewalle.github.io/tags/penetration-testing-tools-module/</loc>
     <lastmod>2022-10-13T02:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/room/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/ssh-bruteforcing/</loc>
     <lastmod>2022-10-13T02:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/thm/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/thm/comptia-pentest-plus-path/penetration-testing-tools-module/hydra-room/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/thm-walkthrough/</loc>
-    <lastmod>2022-10-13T02:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
     <lastmod>2022-10-13T02:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/nessus/</loc>
@@ -282,9 +312,6 @@
     <lastmod>2022-10-12T04:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/mac-address/</loc>
-    <lastmod>2022-10-12T04:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/network/</loc>
     <lastmod>2022-10-12T04:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/ping/</loc>

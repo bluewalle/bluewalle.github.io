@@ -10,13 +10,121 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Oct 2022 02:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Oct 2022 09:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/tags/beginner-level/</link>
-      <pubDate>Thu, 13 Oct 2022 02:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/beginner-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debugger</title>
+      <link>https://bluewalle.github.io/tags/debugger/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/debugger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer tools</title>
+      <link>https://bluewalle.github.io/tags/developer-tools/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/developer-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>directory listing</title>
+      <link>https://bluewalle.github.io/tags/directory-listing/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/directory-listing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inspector</title>
+      <link>https://bluewalle.github.io/tags/inspector/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/inspector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>introduction-to-web-hacking-module</title>
+      <link>https://bluewalle.github.io/tags/introduction-to-web-hacking-module/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/introduction-to-web-hacking-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>https://bluewalle.github.io/tags/network/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>page source</title>
+      <link>https://bluewalle.github.io/tags/page-source/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/page-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>room</title>
+      <link>https://bluewalle.github.io/tags/room/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thm</title>
+      <link>https://bluewalle.github.io/tags/thm/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/thm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walking-an-application-room</title>
+      <link>https://bluewalle.github.io/tags/walking-an-application-room/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walking-an-application-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-fundamentals-path</title>
+      <link>https://bluewalle.github.io/tags/web-fundamentals-path/</link>
+      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/web-fundamentals-path/</guid>
       <description></description>
     </item>
     
@@ -75,38 +183,11 @@
     </item>
     
     <item>
-      <title>room</title>
-      <link>https://bluewalle.github.io/tags/room/</link>
-      <pubDate>Thu, 13 Oct 2022 02:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ssh bruteforcing</title>
       <link>https://bluewalle.github.io/tags/ssh-bruteforcing/</link>
       <pubDate>Thu, 13 Oct 2022 02:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/ssh-bruteforcing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thm</title>
-      <link>https://bluewalle.github.io/tags/thm/</link>
-      <pubDate>Thu, 13 Oct 2022 02:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/thm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Thu, 13 Oct 2022 02:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
@@ -710,15 +791,6 @@
       <pubDate>Wed, 12 Oct 2022 04:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/mac-address/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network</title>
-      <link>https://bluewalle.github.io/tags/network/</link>
-      <pubDate>Wed, 12 Oct 2022 04:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/network/</guid>
       <description></description>
     </item>
     
