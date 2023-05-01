@@ -2,13 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bluewalle.github.io/tags/beginner-level/</loc>
-    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/linux/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/linux-basics/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/overthewire/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/overthewire/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/etc/overthewire/bandit/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/ssh/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/wargame/</loc>
+    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/beginner-level/</loc>
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/debugger/</loc>
@@ -18,9 +51,6 @@
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/directory-listing/</loc>
-    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/</loc>
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/inspector/</loc>
@@ -35,13 +65,7 @@
     <loc>https://bluewalle.github.io/tags/page-source/</loc>
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
-    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/room/</loc>
-    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/thm/</loc>
@@ -54,9 +78,6 @@
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/walking-an-application-room/</loc>
-    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/web-fundamentals-path/</loc>

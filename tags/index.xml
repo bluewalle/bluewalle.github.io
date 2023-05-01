@@ -5,12 +5,67 @@
     <link>https://bluewalle.github.io/tags/</link>
     <description>Recent content in Tags on Ee-Vah?</description>
     <image>
+      <title>Ee-Vah?</title>
       <url>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Oct 2022 09:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Apr 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://bluewalle.github.io/tags/linux/</link>
+      <pubDate>Tue, 18 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux-basics</title>
+      <link>https://bluewalle.github.io/tags/linux-basics/</link>
+      <pubDate>Tue, 18 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/linux-basics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>overthewire</title>
+      <link>https://bluewalle.github.io/tags/overthewire/</link>
+      <pubDate>Tue, 18 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/overthewire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://bluewalle.github.io/tags/ssh/</link>
+      <pubDate>Tue, 18 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Tue, 18 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wargame</title>
+      <link>https://bluewalle.github.io/tags/wargame/</link>
+      <pubDate>Tue, 18 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/wargame/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/tags/beginner-level/</link>
@@ -107,15 +162,6 @@
       <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/walking-an-application-room/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Mon, 17 Oct 2022 09:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     

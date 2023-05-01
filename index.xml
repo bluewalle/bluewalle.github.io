@@ -5,12 +5,25 @@
     <link>https://bluewalle.github.io/</link>
     <description>Recent content on Ee-Vah?</description>
     <image>
+      <title>Ee-Vah?</title>
       <url>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Oct 2022 09:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Apr 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OverTheWire - Bandit - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/etc/overthewire/bandit/</link>
+      <pubDate>Tue, 18 Apr 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/etc/overthewire/bandit/</guid>
+      <description>The aim of this walkthrough is to provide help with the Bandit wargame on the OverTheWire website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
+The wargame is available under Bandit wargame.
+Note: Throughout this tutorial/walkthrough the words password and flag are used interchangeably.
+Quick intro and start config Basic idea: finish level x to get level x+1.</description>
+    </item>
+    
     <item>
       <title>THM - Walking An Application - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/thm/web-fundamentals-path/walking-an-application-room/</link>
