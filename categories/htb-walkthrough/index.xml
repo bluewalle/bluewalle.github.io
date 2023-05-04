@@ -11,15 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2023 11:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/htb-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 12:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/htb-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTB - Explosion - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/explodion/</link>
+      <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/explodion/</guid>
+      <description>The aim of this walkthrough is to provide help with the Explosion machine on the Hack The Box website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
+It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
+SETUP There are a couple of ways to connect to the target machine.</description>
+    </item>
+    
     <item>
       <title>HTB - Redeemer - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/redeemer/</link>
       <pubDate>Thu, 04 May 2023 11:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/redeemer/</guid>
-      <description>The aim of this walkthrough is to provide help with the Redeemer machine on the HackTheBox website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
-It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges. HTB Starting Point.
+      <description>The aim of this walkthrough is to provide help with the Redeemer machine on the Hack The Box website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
+It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
     </item>
     
@@ -29,8 +40,8 @@ SETUP There are a couple of ways to connect to the target machine.</description>
       <pubDate>Thu, 04 May 2023 10:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/dancing/</guid>
-      <description>The aim of this walkthrough is to provide help with the Dancing machine on the HackTheBox website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
-It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges. HTB Starting Point.
+      <description>The aim of this walkthrough is to provide help with the Dancing machine on the Hack The Box website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
+It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
     </item>
     
@@ -40,8 +51,8 @@ SETUP There are a couple of ways to connect to the target machine.</description>
       <pubDate>Thu, 04 May 2023 09:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/fawn/</guid>
-      <description>The aim of this walkthrough is to provide help with the Fawn machine on the HackTheBox website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
-It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges. HTB Starting Point.
+      <description>The aim of this walkthrough is to provide help with the Fawn machine on the Hack The Box website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
+It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
     </item>
     
@@ -51,8 +62,8 @@ SETUP There are a couple of ways to connect to the target machine.</description>
       <pubDate>Thu, 04 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/meow/</guid>
-      <description>The aim of this walkthrough is to provide help with the Meow machine on the HackTheBox website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
-It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges. HTB Starting Point.
+      <description>The aim of this walkthrough is to provide help with the Meow machine on the Hack The Box website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
+It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
     </item>
     
