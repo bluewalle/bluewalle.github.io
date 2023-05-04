@@ -2,14 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bluewalle.github.io/tags/anonymous-access/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
-    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/dancing/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/</loc>
-    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/guest-access/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/htb/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/dancing/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/htb-walkthrough/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/network/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/protocols/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/reconnaissance/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/smb/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/fawn/</loc>
+    <lastmod>2023-05-04T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/ftp/</loc>
+    <lastmod>2023-05-04T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/fawn/</loc>
+    <lastmod>2023-05-04T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/meow/</loc>
+    <lastmod>2023-05-04T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/meow/</loc>
+    <lastmod>2023-05-04T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/misconfiguration/</loc>
+    <lastmod>2023-05-04T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/telnet/</loc>
+    <lastmod>2023-05-04T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/weak-credentials/</loc>
+    <lastmod>2023-05-04T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/ssh/</loc>
+    <lastmod>2023-05-02T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/underthewire/</loc>
+    <lastmod>2023-05-02T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/etc/underthewire/century/</loc>
+    <lastmod>2023-05-02T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/underthwire/</loc>
+    <lastmod>2023-05-02T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/wargame/</loc>
+    <lastmod>2023-05-02T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/windows/</loc>
+    <lastmod>2023-05-02T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/windows-basics/</loc>
+    <lastmod>2023-05-02T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/linux/</loc>
     <lastmod>2023-04-18T10:00:00+00:00</lastmod>
@@ -24,21 +108,6 @@
     <lastmod>2023-04-18T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/etc/overthewire/bandit/</loc>
-    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
-    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/ssh/</loc>
-    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
-    <lastmod>2023-04-18T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/wargame/</loc>
     <lastmod>2023-04-18T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/beginner-level/</loc>
@@ -57,9 +126,6 @@
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/introduction-to-web-hacking-module/</loc>
-    <lastmod>2022-10-17T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/network/</loc>
     <lastmod>2022-10-17T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/page-source/</loc>
