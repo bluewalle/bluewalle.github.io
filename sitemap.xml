@@ -2,46 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bluewalle.github.io/tags/apache/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/custom-applications/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/default-credentials/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/htb/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/preignition/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/htb-walkthrough/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/preignition/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/reconnaissance/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/web/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/web-site-structure-discovery/</loc>
+    <lastmod>2023-05-04T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/explosion/</loc>
     <lastmod>2023-05-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/htb/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/explodion/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/htb-walkthrough/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/explosion/</loc>
     <lastmod>2023-05-04T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/network/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
     <lastmod>2023-05-04T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/programming/</loc>
     <lastmod>2023-05-04T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/rdp/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/reconnaissance/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2023-05-04T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
     <lastmod>2023-05-04T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/weak-credentials/</loc>

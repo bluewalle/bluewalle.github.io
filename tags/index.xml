@@ -11,22 +11,94 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2023 12:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 13:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>explosion</title>
-      <link>https://bluewalle.github.io/tags/explosion/</link>
-      <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
+      <title>apache</title>
+      <link>https://bluewalle.github.io/tags/apache/</link>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/tags/explosion/</guid>
+      <guid>https://bluewalle.github.io/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>custom-applications</title>
+      <link>https://bluewalle.github.io/tags/custom-applications/</link>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/custom-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>default-credentials</title>
+      <link>https://bluewalle.github.io/tags/default-credentials/</link>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/default-credentials/</guid>
       <description></description>
     </item>
     
     <item>
       <title>htb</title>
       <link>https://bluewalle.github.io/tags/htb/</link>
-      <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/htb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preignition</title>
+      <link>https://bluewalle.github.io/tags/preignition/</link>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/preignition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reconnaissance</title>
+      <link>https://bluewalle.github.io/tags/reconnaissance/</link>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/reconnaissance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://bluewalle.github.io/tags/web/</link>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-site-structure-discovery</title>
+      <link>https://bluewalle.github.io/tags/web-site-structure-discovery/</link>
+      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/web-site-structure-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>explosion</title>
+      <link>https://bluewalle.github.io/tags/explosion/</link>
+      <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/explosion/</guid>
       <description></description>
     </item>
     
@@ -54,24 +126,6 @@
       <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/rdp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reconnaissance</title>
-      <link>https://bluewalle.github.io/tags/reconnaissance/</link>
-      <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/reconnaissance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
