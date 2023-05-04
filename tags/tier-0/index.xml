@@ -14,10 +14,10 @@
     <lastBuildDate>Thu, 04 May 2023 21:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/tier-0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTB - Synced - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/synced/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/synced/</link>
       <pubDate>Thu, 04 May 2023 21:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/synced/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/synced/</guid>
       <description>The aim of this walkthrough is to provide help with the Synced machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
@@ -25,10 +25,10 @@ SETUP There are a couple of ways to connect to the target machine.</description>
     
     <item>
       <title>HTB - Mongod - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/mongod/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/mongod/</link>
       <pubDate>Thu, 04 May 2023 20:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/mongod/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/mongod/</guid>
       <description>The aim of this walkthrough is to provide help with the Mongod machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
@@ -36,10 +36,10 @@ SETUP There are a couple of ways to connect to the target machine.</description>
     
     <item>
       <title>HTB - Preignition - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/preignition/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/preignition/</link>
       <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/preignition/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/preignition/</guid>
       <description>The aim of this walkthrough is to provide help with the Preignition machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
@@ -47,10 +47,10 @@ SETUP There are a couple of ways to connect to the target machine.</description>
     
     <item>
       <title>HTB - Explosion - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/explosion/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/explosion/</link>
       <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/explosion/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/explosion/</guid>
       <description>The aim of this walkthrough is to provide help with the Explosion machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
@@ -58,10 +58,10 @@ SETUP There are a couple of ways to connect to the target machine.</description>
     
     <item>
       <title>HTB - Redeemer - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/redeemer/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/redeemer/</link>
       <pubDate>Thu, 04 May 2023 11:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/redeemer/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/redeemer/</guid>
       <description>The aim of this walkthrough is to provide help with the Redeemer machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
@@ -69,10 +69,10 @@ SETUP There are a couple of ways to connect to the target machine.</description>
     
     <item>
       <title>HTB - Dancing - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/dancing/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/dancing/</link>
       <pubDate>Thu, 04 May 2023 10:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/dancing/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/dancing/</guid>
       <description>The aim of this walkthrough is to provide help with the Dancing machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
@@ -80,10 +80,10 @@ SETUP There are a couple of ways to connect to the target machine.</description>
     
     <item>
       <title>HTB - Fawn - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/fawn/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/fawn/</link>
       <pubDate>Thu, 04 May 2023 09:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/fawn/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/fawn/</guid>
       <description>The aim of this walkthrough is to provide help with the Fawn machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
@@ -91,10 +91,10 @@ SETUP There are a couple of ways to connect to the target machine.</description>
     
     <item>
       <title>HTB - Meow - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/meow/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/meow/</link>
       <pubDate>Thu, 04 May 2023 08:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/meow/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/meow/</guid>
       <description>The aim of this walkthrough is to provide help with the Meow machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>

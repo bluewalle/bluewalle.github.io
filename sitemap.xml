@@ -20,7 +20,7 @@
     <loc>https://bluewalle.github.io/tags/htb/</loc>
     <lastmod>2023-05-04T21:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/synced/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/synced/</loc>
     <lastmod>2023-05-04T21:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/htb-walkthrough/</loc>
@@ -56,7 +56,7 @@
     <loc>https://bluewalle.github.io/tags/databases/</loc>
     <lastmod>2023-05-04T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/mongod/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/mongod/</loc>
     <lastmod>2023-05-04T20:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/misconfiguration/</loc>
@@ -80,7 +80,7 @@
     <loc>https://bluewalle.github.io/tags/default-credentials/</loc>
     <lastmod>2023-05-04T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/preignition/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/preignition/</loc>
     <lastmod>2023-05-04T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/preignition/</loc>
@@ -92,7 +92,7 @@
     <loc>https://bluewalle.github.io/tags/explosion/</loc>
     <lastmod>2023-05-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/explosion/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/explosion/</loc>
     <lastmod>2023-05-04T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/programming/</loc>
@@ -104,7 +104,7 @@
     <loc>https://bluewalle.github.io/tags/weak-credentials/</loc>
     <lastmod>2023-05-04T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/redeemer/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/redeemer/</loc>
     <lastmod>2023-05-04T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/redeemer/</loc>
@@ -119,7 +119,7 @@
     <loc>https://bluewalle.github.io/tags/dancing/</loc>
     <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/dancing/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/dancing/</loc>
     <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/smb/</loc>
@@ -131,10 +131,10 @@
     <loc>https://bluewalle.github.io/tags/ftp/</loc>
     <lastmod>2023-05-04T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/fawn/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/fawn/</loc>
     <lastmod>2023-05-04T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/meow/</loc>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/meow/</loc>
     <lastmod>2023-05-04T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/meow/</loc>

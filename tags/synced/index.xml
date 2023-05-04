@@ -14,10 +14,10 @@
     <lastBuildDate>Thu, 04 May 2023 21:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/synced/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTB - Synced - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/synced/</link>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/synced/</link>
       <pubDate>Thu, 04 May 2023 21:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/synced/</guid>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/synced/</guid>
       <description>The aim of this walkthrough is to provide help with the Synced machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
 It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
