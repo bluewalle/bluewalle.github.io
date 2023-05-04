@@ -11,7 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 11:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTB - Redeemer - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/redeemer/</link>
+      <pubDate>Thu, 04 May 2023 11:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/redeemer/</guid>
+      <description>The aim of this walkthrough is to provide help with the Redeemer machine on the HackTheBox website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
+It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges. HTB Starting Point.
+SETUP There are a couple of ways to connect to the target machine.</description>
+    </item>
+    
     <item>
       <title>HTB - Dancing - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/dancing/</link>

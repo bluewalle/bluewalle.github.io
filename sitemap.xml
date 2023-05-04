@@ -3,51 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bluewalle.github.io/tags/anonymous-access/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/dancing/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+    <loc>https://bluewalle.github.io/tags/databases/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/guest-access/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/htb/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/redeemer/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/htb-walkthrough/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/radis/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/reconnaissance/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/redeemer/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/vulnerability-assessment/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2023-05-04T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/dancing/</loc>
     <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/dancing/</loc>
     <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/categories/htb-walkthrough/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/network/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
     <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/protocols/</loc>
     <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/reconnaissance/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/smb/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2023-05-04T10:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
     <lastmod>2023-05-04T10:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/fawn/</loc>
@@ -195,9 +210,6 @@
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/cdn/</loc>
-    <lastmod>2022-10-12T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/databases/</loc>
     <lastmod>2022-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/dynamic-content/</loc>
