@@ -19,7 +19,7 @@
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/mongod/</guid>
       <description>The aim of this walkthrough is to provide help with the Mongod machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
-It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
+It belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 0 challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
     </item>
     
@@ -30,7 +30,7 @@ SETUP There are a couple of ways to connect to the target machine.</description>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/redeemer/</guid>
       <description>The aim of this walkthrough is to provide help with the Redeemer machine on the Hack The Box website. Please note that no flags are directly provided here, only one of the many ways to solve the challenges.
-It belongs to a series of tutorials the aim to help out complete beginners with finishing the Starting Point challenges.
+It belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 0 challenges.
 SETUP There are a couple of ways to connect to the target machine.</description>
     </item>
     
