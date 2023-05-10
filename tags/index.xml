@@ -11,7 +11,115 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 May 2023 20:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 May 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>common-applications</title>
+      <link>https://bluewalle.github.io/tags/common-applications/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/common-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>default-credentials</title>
+      <link>https://bluewalle.github.io/tags/default-credentials/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/default-credentials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>htb</title>
+      <link>https://bluewalle.github.io/tags/htb/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/htb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://bluewalle.github.io/tags/java/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jenkins</title>
+      <link>https://bluewalle.github.io/tags/jenkins/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pennyworth</title>
+      <link>https://bluewalle.github.io/tags/pennyworth/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/pennyworth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reconnaissance</title>
+      <link>https://bluewalle.github.io/tags/reconnaissance/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/reconnaissance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote-code-execution</title>
+      <link>https://bluewalle.github.io/tags/remote-code-execution/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/remote-code-execution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tier-1</title>
+      <link>https://bluewalle.github.io/tags/tier-1/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/tier-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vip-tier</title>
+      <link>https://bluewalle.github.io/tags/vip-tier/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/vip-tier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://bluewalle.github.io/tags/web/</link>
+      <pubDate>Wed, 10 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>anonymous-access</title>
       <link>https://bluewalle.github.io/tags/anonymous-access/</link>
@@ -58,15 +166,6 @@
     </item>
     
     <item>
-      <title>htb</title>
-      <link>https://bluewalle.github.io/tags/htb/</link>
-      <pubDate>Tue, 09 May 2023 20:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/htb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>password-spraying</title>
       <link>https://bluewalle.github.io/tags/password-spraying/</link>
       <pubDate>Tue, 09 May 2023 20:00:00 +0000</pubDate>
@@ -94,47 +193,11 @@
     </item>
     
     <item>
-      <title>reconnaissance</title>
-      <link>https://bluewalle.github.io/tags/reconnaissance/</link>
-      <pubDate>Tue, 09 May 2023 20:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/reconnaissance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tier-1</title>
-      <link>https://bluewalle.github.io/tags/tier-1/</link>
-      <pubDate>Tue, 09 May 2023 20:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/tier-1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tunneling</title>
       <link>https://bluewalle.github.io/tags/tunneling/</link>
       <pubDate>Tue, 09 May 2023 20:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/tunneling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vip-tier</title>
-      <link>https://bluewalle.github.io/tags/vip-tier/</link>
-      <pubDate>Tue, 09 May 2023 20:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/vip-tier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Tue, 09 May 2023 20:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
@@ -184,15 +247,6 @@
     </item>
     
     <item>
-      <title>remote-code-execution</title>
-      <link>https://bluewalle.github.io/tags/remote-code-execution/</link>
-      <pubDate>Tue, 09 May 2023 12:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/remote-code-execution/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>server-side-template-injection</title>
       <link>https://bluewalle.github.io/tags/server-side-template-injection/</link>
       <pubDate>Tue, 09 May 2023 12:00:00 +0000</pubDate>
@@ -207,24 +261,6 @@
       <pubDate>Tue, 09 May 2023 12:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/ssti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://bluewalle.github.io/tags/web/</link>
-      <pubDate>Tue, 09 May 2023 12:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>common-applications</title>
-      <link>https://bluewalle.github.io/tags/common-applications/</link>
-      <pubDate>Tue, 09 May 2023 07:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/common-applications/</guid>
       <description></description>
     </item>
     
@@ -558,15 +594,6 @@
       <pubDate>Thu, 04 May 2023 20:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/mongodb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>default-credentials</title>
-      <link>https://bluewalle.github.io/tags/default-credentials/</link>
-      <pubDate>Thu, 04 May 2023 13:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/default-credentials/</guid>
       <description></description>
     </item>
     
