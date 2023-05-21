@@ -11,22 +11,58 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/categories/beginner-level/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/beginner-level/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>htb-starting-point</title>
+      <link>https://bluewalle.github.io/categories/htb-starting-point/</link>
+      <pubDate>Sun, 21 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/htb-starting-point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>htb-walkthrough</title>
       <link>https://bluewalle.github.io/categories/htb-walkthrough/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/htb-walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tier-2</title>
+      <link>https://bluewalle.github.io/categories/tier-2/</link>
+      <pubDate>Sun, 21 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/tier-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tier-1</title>
+      <link>https://bluewalle.github.io/categories/tier-1/</link>
+      <pubDate>Wed, 10 May 2023 21:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/tier-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tier-0</title>
+      <link>https://bluewalle.github.io/categories/tier-0/</link>
+      <pubDate>Thu, 04 May 2023 21:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/tier-0/</guid>
       <description></description>
     </item>
     
