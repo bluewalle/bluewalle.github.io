@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 May 2023 17:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/php-type-juggling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/php-type-juggling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTB - Base - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_2/base/</link>
-      <pubDate>Tue, 23 May 2023 17:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_2/base/</guid>
       <description>The aim of this walkthrough is to provide help with the Base machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
