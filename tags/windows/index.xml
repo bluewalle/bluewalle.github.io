@@ -11,17 +11,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 May 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 12:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>UnderTheWire - Century - Walkthrough</title>
-      <link>https://bluewalle.github.io/posts/walkthroughs/etc/underthewire/century/</link>
-      <pubDate>Tue, 02 May 2023 10:00:00 +0000</pubDate>
+      <title>HTB - Explosion - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/explosion/</link>
+      <pubDate>Thu, 04 May 2023 12:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/posts/walkthroughs/etc/underthewire/century/</guid>
-      <description>The aim of this walkthrough is to provide help with the Century wargame on the UnderTheWire website. Please note that no flags or passwords are directly provided here. Only one of the many ways to solve the challenges.
-The wargame is available under Century wargame.
-Note_0: Throughout this tutorial/walkthrough the words password and flag are used interchangeably.
-Note_1: I highly encourage you to first go over the PowerShell 101 Tutorial that is provided by Microsoft.</description>
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/explosion/</guid>
+      <description>The aim of this walkthrough is to provide help with the Explosion machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
+It belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 0 challenges.
+SETUP There are a couple of ways to connect to the target machine.</description>
+    </item>
+    
+    <item>
+      <title>HTB - Dancing - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/dancing/</link>
+      <pubDate>Thu, 04 May 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_0/dancing/</guid>
+      <description>The aim of this walkthrough is to provide help with the Dancing machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
+It belongs to a series of tutorials that aim to help out complete beginners with finishing the Starting Point TIER 0 challenges.
+SETUP There are a couple of ways to connect to the target machine.</description>
     </item>
     
   </channel>

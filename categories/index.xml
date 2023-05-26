@@ -31,11 +31,11 @@
     </item>
     
     <item>
-      <title>easy</title>
-      <link>https://bluewalle.github.io/categories/easy/</link>
+      <title>difficulty-easy</title>
+      <link>https://bluewalle.github.io/categories/difficulty-easy/</link>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://bluewalle.github.io/categories/easy/</guid>
+      <guid>https://bluewalle.github.io/categories/difficulty-easy/</guid>
       <description></description>
     </item>
     
@@ -45,6 +45,42 @@
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/htb-walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux-target</title>
+      <link>https://bluewalle.github.io/categories/linux-target/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/linux-target/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retired</title>
+      <link>https://bluewalle.github.io/categories/retired/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/retired/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>system-own</title>
+      <link>https://bluewalle.github.io/categories/system-own/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/system-own/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user-own</title>
+      <link>https://bluewalle.github.io/categories/user-own/</link>
+      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/user-own/</guid>
       <description></description>
     </item>
     
@@ -63,6 +99,15 @@
       <pubDate>Thu, 25 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/tier-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows-target</title>
+      <link>https://bluewalle.github.io/categories/windows-target/</link>
+      <pubDate>Wed, 24 May 2023 08:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/windows-target/</guid>
       <description></description>
     </item>
     
