@@ -11,22 +11,67 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 May 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 12:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beginner-track</title>
+      <link>https://bluewalle.github.io/categories/beginner-track/</link>
+      <pubDate>Sun, 28 May 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/beginner-track/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>easy-box</title>
+      <link>https://bluewalle.github.io/categories/easy-box/</link>
+      <pubDate>Sun, 28 May 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/easy-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>htb-walkthrough</title>
+      <link>https://bluewalle.github.io/categories/htb-walkthrough/</link>
+      <pubDate>Sun, 28 May 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/htb-walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>system-own</title>
+      <link>https://bluewalle.github.io/categories/system-own/</link>
+      <pubDate>Sun, 28 May 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/system-own/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>user-own</title>
+      <link>https://bluewalle.github.io/categories/user-own/</link>
+      <pubDate>Sun, 28 May 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/user-own/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows-target</title>
+      <link>https://bluewalle.github.io/categories/windows-target/</link>
+      <pubDate>Sun, 28 May 2023 12:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/windows-target/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>beginner-level</title>
       <link>https://bluewalle.github.io/categories/beginner-level/</link>
       <pubDate>Sat, 27 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/beginner-level/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>beginner-track</title>
-      <link>https://bluewalle.github.io/categories/beginner-track/</link>
-      <pubDate>Sat, 27 May 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/beginner-track/</guid>
       <description></description>
     </item>
     
@@ -40,47 +85,11 @@
     </item>
     
     <item>
-      <title>completed-challenge</title>
-      <link>https://bluewalle.github.io/categories/completed-challenge/</link>
-      <pubDate>Sat, 27 May 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/completed-challenge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cracking-weak-rsa</title>
       <link>https://bluewalle.github.io/categories/cracking-weak-rsa/</link>
       <pubDate>Sat, 27 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/cracking-weak-rsa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>difficulty-easy</title>
-      <link>https://bluewalle.github.io/categories/difficulty-easy/</link>
-      <pubDate>Sat, 27 May 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/difficulty-easy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>htb-walkthrough</title>
-      <link>https://bluewalle.github.io/categories/htb-walkthrough/</link>
-      <pubDate>Sat, 27 May 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/htb-walkthrough/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retired</title>
-      <link>https://bluewalle.github.io/categories/retired/</link>
-      <pubDate>Sat, 27 May 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/retired/</guid>
       <description></description>
     </item>
     
@@ -103,24 +112,6 @@
     </item>
     
     <item>
-      <title>system-own</title>
-      <link>https://bluewalle.github.io/categories/system-own/</link>
-      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/system-own/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>user-own</title>
-      <link>https://bluewalle.github.io/categories/user-own/</link>
-      <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/user-own/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>htb-starting-point</title>
       <link>https://bluewalle.github.io/categories/htb-starting-point/</link>
       <pubDate>Thu, 25 May 2023 08:00:00 +0000</pubDate>
@@ -135,15 +126,6 @@
       <pubDate>Thu, 25 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/tier-2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows-target</title>
-      <link>https://bluewalle.github.io/categories/windows-target/</link>
-      <pubDate>Wed, 24 May 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/windows-target/</guid>
       <description></description>
     </item>
     

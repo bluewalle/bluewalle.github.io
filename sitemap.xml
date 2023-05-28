@@ -2,13 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
+    <loc>https://bluewalle.github.io/tags/arbitrary-file-upload/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/beginner-track/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/brute-force-attack/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/categories/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/common-services/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/default-credentials/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/easy-box/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/easy-box/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/htb/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/jerry/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/htb-walkthrough/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/java/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/jerry/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/msfvenom/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/posts/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/remote-code-execution/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/retired/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/security-tools/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/system-own/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/system-own/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/tomcat/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/user-own/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/user-own/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/vulnerability-assessment/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/web/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/tags/windows-target/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/windows-target/</loc>
+    <lastmod>2023-05-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://bluewalle.github.io/categories/beginner-level/</loc>
     <lastmod>2023-05-27T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/challenge-box/</loc>
@@ -17,55 +101,19 @@
     <loc>https://bluewalle.github.io/categories/challenge-box/</loc>
     <lastmod>2023-05-27T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/completed-challenge/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/completed-challenge/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/categories/cracking-weak-rsa/</loc>
     <lastmod>2023-05-27T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/cracking-weak-rsa-public-key/</loc>
     <lastmod>2023-05-27T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/difficulty-easy/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/difficulty-easy/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/encrypted-flag/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/htb/</loc>
     <lastmod>2023-05-27T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/weak-rsa/</loc>
     <lastmod>2023-05-27T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/categories/htb-walkthrough/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/posts/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/retired/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/retired/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/rsactftool/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/</loc>
-    <lastmod>2023-05-27T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/walkthrough/</loc>
     <lastmod>2023-05-27T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/weak-rsa/</loc>
@@ -98,9 +146,6 @@
     <loc>https://bluewalle.github.io/tags/sha256sum/</loc>
     <lastmod>2023-05-26T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/common-services/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/lame/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -122,34 +167,10 @@
     <loc>https://bluewalle.github.io/tags/outdated-software/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/remote-code-execution/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/samba/</loc>
     <lastmod>2023-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/security-tools/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/system-own/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/system-own/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/user-own/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/user-own/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/vulnerability-assessment/</loc>
-    <lastmod>2023-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/apache/</loc>
-    <lastmod>2023-05-25T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/arbitrary-file-upload/</loc>
     <lastmod>2023-05-25T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/authentication/</loc>
@@ -200,9 +221,6 @@
     <loc>https://bluewalle.github.io/tags/vip-tier/</loc>
     <lastmod>2023-05-25T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/web/</loc>
-    <lastmod>2023-05-25T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/web-site-structure-discovery/</loc>
     <lastmod>2023-05-25T08:00:00+00:00</lastmod>
   </url><url>
@@ -225,12 +243,6 @@
     <lastmod>2023-05-24T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/weak-permissions/</loc>
-    <lastmod>2023-05-24T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/windows-target/</loc>
-    <lastmod>2023-05-24T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/categories/windows-target/</loc>
     <lastmod>2023-05-24T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/xxe-injection/</loc>
@@ -260,16 +272,10 @@
     <loc>https://bluewalle.github.io/tags/databases/</loc>
     <lastmod>2023-05-21T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://bluewalle.github.io/tags/default-credentials/</loc>
-    <lastmod>2023-05-21T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://bluewalle.github.io/tags/free-tier/</loc>
     <lastmod>2023-05-21T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/posts/walkthroughs/htb/starting-point/tier_2/unified/</loc>
-    <lastmod>2023-05-21T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bluewalle.github.io/tags/java/</loc>
     <lastmod>2023-05-21T08:00:00+00:00</lastmod>
   </url><url>
     <loc>https://bluewalle.github.io/tags/mongodb/</loc>
