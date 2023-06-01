@@ -11,7 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2023 12:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/system-own/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 15:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/system-own/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTB - You know 0xDiablos - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/you-know-0xdiablos/</link>
+      <pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/you-know-0xdiablos/</guid>
+      <description>The aim of this walkthrough is to provide help with the You know 0xDiablos challenge on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
+It belongs to a series of tutorials that aim to help out with finishing the Beginner-Track challenges.
+PREPARING-CHALLENGE-FILES After a quick look at the challenge description</description>
+    </item>
+    
     <item>
       <title>HTB - Jerry - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/jerry/</link>
