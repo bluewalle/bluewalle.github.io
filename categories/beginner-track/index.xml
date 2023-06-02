@@ -28,9 +28,8 @@ The aim of this walkthrough is to provide help with the Netmon machine on the Ha
       <pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/you-know-0xdiablos/</guid>
-      <description>The aim of this walkthrough is to provide help with the You know 0xDiablos challenge on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
-It belongs to a series of tutorials that aim to help out with finishing the Beginner-Track challenges.
-PREPARING-CHALLENGE-FILES After a quick look at the challenge description</description>
+      <description>SYNOPSIS Outlining the attack path demonstrated in this writeup is much easier through a picture rather than a description, since a picture is worth a thousand words.
+The aim of this walkthrough is to provide help with the You know 0xDiablos challenge on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.</description>
     </item>
     
     <item>
@@ -39,9 +38,8 @@ PREPARING-CHALLENGE-FILES After a quick look at the challenge description</descr
       <pubDate>Sun, 28 May 2023 12:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/jerry/</guid>
-      <description>The aim of this walkthrough is to provide help with the Jerry machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
-It belongs to a series of tutorials that aim to help out with finishing the Beginner-Track challenges.
-SETUP There are a couple of ways to connect to the target machine.</description>
+      <description>SYNOPSIS Outlining the attack path demonstrated in this writeup is much easier through a picture rather than a description, since a picture is worth a thousand words.
+The aim of this walkthrough is to provide help with the Jerry machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.</description>
     </item>
     
     <item>
@@ -50,9 +48,8 @@ SETUP There are a couple of ways to connect to the target machine.</description>
       <pubDate>Sat, 27 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/weak-rsa/</guid>
-      <description>The aim of this walkthrough is to provide help with the Weak RSA challenge on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
-It belongs to a series of tutorials that aim to help out with finishing the Beginner-Track challenges.
-PREPARING-CHALLENGE-FILES After a quick look at the challenge description</description>
+      <description>SYNOPSIS Outlining the attack path demonstrated in this writeup is much easier through a picture rather than a description, since a picture is worth a thousand words.
+The aim of this walkthrough is to provide help with the Weak RSA challenge on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.</description>
     </item>
     
     <item>
@@ -61,9 +58,8 @@ PREPARING-CHALLENGE-FILES After a quick look at the challenge description</descr
       <pubDate>Fri, 26 May 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/find-the-easy-pass/</guid>
-      <description>The aim of this walkthrough is to provide help with the Find The Easy Pass challenge on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
-It belongs to a series of tutorials that aim to help out with finishing the Beginner-Track challenges.
-PREPARATION After reading the challenge description</description>
+      <description>SYNOPSIS Outlining the attack path demonstrated in this writeup is much easier through a picture rather than a description, since a picture is worth a thousand words.
+The aim of this walkthrough is to provide help with the Find The Easy Pass challenge on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.</description>
     </item>
     
     <item>
@@ -72,9 +68,8 @@ PREPARATION After reading the challenge description</description>
       <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/lame/</guid>
-      <description>The aim of this walkthrough is to provide help with the Lame machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.
-It belongs to a series of tutorials that aim to help out with finishing the Beginner-Track challenges.
-SETUP There are a couple of ways to connect to the target machine.</description>
+      <description>SYNOPSIS Outlining the attack path demonstrated in this writeup is much easier through a picture rather than a description, since a picture is worth a thousand words.
+The aim of this walkthrough is to provide help with the Lame machine on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.</description>
     </item>
     
   </channel>
