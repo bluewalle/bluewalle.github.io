@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jun 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/htb-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/htb-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTB - Under Construction - Walkthrough</title>
+      <link>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/under-construction/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/under-construction/</guid>
+      <description>SYNOPSIS Outlining the attack path demonstrated in this writeup is much easier through a picture rather than a description, since a picture is worth a thousand words.
+The aim of this walkthrough is to provide help with the Under Construction challenge on the Hack The Box website. Please note that no flags are directly provided here. Moreover, be aware that this is only one of the many ways to solve the challenges.</description>
+    </item>
+    
     <item>
       <title>HTB - Blue - Walkthrough</title>
       <link>https://bluewalle.github.io/posts/walkthroughs/htb/beginner-track/blue/</link>

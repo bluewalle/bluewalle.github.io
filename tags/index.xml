@@ -11,7 +11,124 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jun 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>challenge-box</title>
+      <link>https://bluewalle.github.io/tags/challenge-box/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/challenge-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>completed-challenge</title>
+      <link>https://bluewalle.github.io/tags/completed-challenge/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/completed-challenge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cve-2022-23541</title>
+      <link>https://bluewalle.github.io/tags/cve-2022-23541/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/cve-2022-23541/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>htb</title>
+      <link>https://bluewalle.github.io/tags/htb/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/htb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jwt</title>
+      <link>https://bluewalle.github.io/tags/jwt/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/jwt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jwt-vulnerabilities</title>
+      <link>https://bluewalle.github.io/tags/jwt-vulnerabilities/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/jwt-vulnerabilities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medium-box</title>
+      <link>https://bluewalle.github.io/tags/medium-box/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/medium-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retired</title>
+      <link>https://bluewalle.github.io/tags/retired/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/retired/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>source-code-analysis</title>
+      <link>https://bluewalle.github.io/tags/source-code-analysis/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/source-code-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql-injection</title>
+      <link>https://bluewalle.github.io/tags/sql-injection/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/sql-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static-code-analysis</title>
+      <link>https://bluewalle.github.io/tags/static-code-analysis/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/static-code-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>under-construction</title>
+      <link>https://bluewalle.github.io/tags/under-construction/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/under-construction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>walkthrough</title>
+      <link>https://bluewalle.github.io/tags/walkthrough/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blue</title>
       <link>https://bluewalle.github.io/tags/blue/</link>
@@ -45,15 +162,6 @@
       <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/eternal-blue/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>htb</title>
-      <link>https://bluewalle.github.io/tags/htb/</link>
-      <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/htb/</guid>
       <description></description>
     </item>
     
@@ -112,15 +220,6 @@
     </item>
     
     <item>
-      <title>retired</title>
-      <link>https://bluewalle.github.io/tags/retired/</link>
-      <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/retired/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>security-tools</title>
       <link>https://bluewalle.github.io/tags/security-tools/</link>
       <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
@@ -162,15 +261,6 @@
       <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/vulnerability-assessment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>walkthrough</title>
-      <link>https://bluewalle.github.io/tags/walkthrough/</link>
-      <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/walkthrough/</guid>
       <description></description>
     </item>
     
@@ -243,15 +333,6 @@
       <pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/buffer-overflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>challenge-box</title>
-      <link>https://bluewalle.github.io/tags/challenge-box/</link>
-      <pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/challenge-box/</guid>
       <description></description>
     </item>
     
@@ -589,15 +670,6 @@
     </item>
     
     <item>
-      <title>source-code-analysis</title>
-      <link>https://bluewalle.github.io/tags/source-code-analysis/</link>
-      <pubDate>Thu, 25 May 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/source-code-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>sudo-exploitation</title>
       <link>https://bluewalle.github.io/tags/sudo-exploitation/</link>
       <pubDate>Thu, 25 May 2023 08:00:00 +0000</pubDate>
@@ -792,15 +864,6 @@
       <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/tags/postgresql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sql-injection</title>
-      <link>https://bluewalle.github.io/tags/sql-injection/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/tags/sql-injection/</guid>
       <description></description>
     </item>
     

@@ -11,13 +11,76 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jun 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://bluewalle.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>beginner-track</title>
       <link>https://bluewalle.github.io/categories/beginner-track/</link>
-      <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/beginner-track/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>challenge-box</title>
+      <link>https://bluewalle.github.io/categories/challenge-box/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/challenge-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>completed-challenge</title>
+      <link>https://bluewalle.github.io/categories/completed-challenge/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/completed-challenge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>htb-walkthrough</title>
+      <link>https://bluewalle.github.io/categories/htb-walkthrough/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/htb-walkthrough/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jwt-vulnerabilities</title>
+      <link>https://bluewalle.github.io/categories/jwt-vulnerabilities/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/jwt-vulnerabilities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medium-box</title>
+      <link>https://bluewalle.github.io/categories/medium-box/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/medium-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql-injection</title>
+      <link>https://bluewalle.github.io/categories/sql-injection/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/sql-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static-code-analysis</title>
+      <link>https://bluewalle.github.io/categories/static-code-analysis/</link>
+      <pubDate>Thu, 08 Jun 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://bluewalle.github.io/categories/static-code-analysis/</guid>
       <description></description>
     </item>
     
@@ -36,15 +99,6 @@
       <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/eternal-blue/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>htb-walkthrough</title>
-      <link>https://bluewalle.github.io/categories/htb-walkthrough/</link>
-      <pubDate>Sat, 03 Jun 2023 08:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/htb-walkthrough/</guid>
       <description></description>
     </item>
     
@@ -81,15 +135,6 @@
       <pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate>
       
       <guid>https://bluewalle.github.io/categories/buffer-overflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>challenge-box</title>
-      <link>https://bluewalle.github.io/categories/challenge-box/</link>
-      <pubDate>Wed, 31 May 2023 15:00:00 +0000</pubDate>
-      
-      <guid>https://bluewalle.github.io/categories/challenge-box/</guid>
       <description></description>
     </item>
     
